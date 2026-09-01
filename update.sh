@@ -42,7 +42,7 @@ fun_bar() {
 res1() {
     cd /root
     # Menambahkan query timestamp ?v=$(date +%s) agar wget tidak kena cache GitHub
-    wget -q -O menu.zip "https://raw.githubusercontent.com/gemilangkinasih/autoscript/main/menu/menu.zip?v=$(date +%s)"
+    wget -q -O menu.zip "https://raw.githubusercontent.com/smptxxx/vpntunelli/main/menu/menu.zip?v=$(date +%s)"
     unzip -o menu.zip >/dev/null 2>&1
     chmod +x menu/*
     mv menu/* /usr/local/sbin/

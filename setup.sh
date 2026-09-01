@@ -94,7 +94,7 @@ apt install ruby -y
 gem install lolcat
 apt install wondershaper -y
 
-REPO="https://raw.githubusercontent.com/gemilangkinasih/autoscript/main/"
+REPO="https://raw.githubusercontent.com/smptxxx/vpntunelli/main/"
 start=$(date +%s)
 
 secs_to_human() {
@@ -253,7 +253,7 @@ function pasang_domain() {
 restart_system(){
 clear
 MYIP=$(curl -sS ipv4.icanhazip.com)
-izinsc="https://raw.githubusercontent.com/gemilangkinasih/autoscript/main/register"
+izinsc="https://raw.githubusercontent.com/smptxxx/vpntunelli/main/register"
 rm -f /usr/bin/user
 username=$(curl $izinsc | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user

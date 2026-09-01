@@ -40,7 +40,7 @@ Salin dan jalankan perintah berikut di terminal VPS (root access):
 ```bash
 apt update -y && apt upgrade -y && \
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 && \
-wget https://raw.githubusercontent.com/gemilangkinasih/autoscript/main/setup.sh && \
+wget https://raw.githubusercontent.com/smptxxx/vpntunelli/main/setup.sh && \
 chmod +x setup.sh && ./setup.sh
 ```
 
@@ -123,9 +123,9 @@ Jika domain diarahkan melalui Cloudflare, gunakan pengaturan berikut agar seluru
 ### Tampilan Menu Script
 
 <div align="center">
-<img width="100%" alt="Tampilan menu autoscript" src="https://github.com/gemilangkinasih/autoscript/raw/main/images/image-1.jpg">
+<img width="100%" alt="Tampilan menu autoscript" src="https://github.com/smptxxx/vpntunelli/raw/main/images/image-1.jpg">
 <br>
-<img width="100%" alt="Tampilan SSH premium" src="https://github.com/gemilangkinasih/autoscript/raw/main/images/image-2.jpg">
+<img width="100%" alt="Tampilan SSH premium" src="https://github.com/smptxxx/vpntunelli/raw/main/images/image-2.jpg">
 </div>
 
 ### Mekanisme Penyewaan

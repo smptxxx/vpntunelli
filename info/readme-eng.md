@@ -40,7 +40,7 @@ Copy and run the following command on your VPS terminal (root access required):
 ```bash
 apt update -y && apt upgrade -y && \
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 && \
-wget https://raw.githubusercontent.com/gemilangkinasih/autoscript/main/setup.sh && \
+wget https://raw.githubusercontent.com/smptxxx/vpntunelli/main/setup.sh && \
 chmod +x setup.sh && ./setup.sh
 ```
 
@@ -123,9 +123,9 @@ If your domain is proxied through Cloudflare, use the following settings so ever
 ### Script Menu Preview
 
 <div align="center">
-<img width="100%" alt="Autoscript menu preview" src="https://github.com/gemilangkinasih/autoscript/raw/main/images/image-1.jpg">
+<img width="100%" alt="Autoscript menu preview" src="https://github.com/smptxxx/vpntunelli/raw/main/images/image-1.jpg">
 <br>
-<img width="100%" alt="SSH premium preview" src="https://github.com/gemilangkinasih/autoscript/raw/main/images/image-2.jpg">
+<img width="100%" alt="SSH premium preview" src="https://github.com/smptxxx/vpntunelli/raw/main/images/image-2.jpg">
 </div>
 
 ### Rental Mechanism

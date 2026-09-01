@@ -13,7 +13,7 @@ NC='\e[0m'
 g="\033[1;92m"
 r="\033[1;91m"
 
-REPO="https://raw.githubusercontent.com/gemilangkinasih/autoscript/main/bot/"
+REPO="https://raw.githubusercontent.com/smptxxx/vpntunelli/main/bot/"
 domain=$(cat /etc/xray/domain)
 isp=$(cat /etc/xray/isp)
 city=$(cat /etc/xray/city)
