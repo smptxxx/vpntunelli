@@ -197,13 +197,14 @@ def create_xray_account(proto, user, exp_days, limitip, quota):
     if not m:
         return {"status": "error", "message": "unknown protocol"}
     if proto == "vmess":
-        entry = '{{"id": "{key}","alterId": 0,"email": "{user}"}}'.format(key=key, user=user)
+        entry = '}},{{"id": "{key}","alterId": 0,"email": "{user}"'.format(key=key, user=user)
     elif proto == "vless":
-        entry = '{{"id": "{key}","email" : "{user}"}}'.format(key=key, user=user)
+        entry = '}},{{"id": "{key}","email" : "{user}"'.format(key=key, user=user)
     else:
-        entry = '{{"password": "{key}","email": "{user}"}}'.format(key=key, user=user)
+        entry = '}},{{"password": "{key}","email": "{user}"'.format(key=key, user=user)
+    prefix = {"vmess": "###", "vless": "#&", "trojan": "#!"}[proto]
     for marker in m:
-        add_days_marker(marker, f"### {user} {exp}", "," + entry)
+        add_days_marker(marker, f"{prefix} {user} {exp}", entry)
     rows = db_read(proto)
     rows.append({"user": user, "exp": exp, "key": key})
     db_write(proto, rows)
@@ -225,11 +226,8 @@ def delete_xray_account(proto, user):
     row = db_find(proto, user)
     if not row:
         return {"status": "error", "message": "account not found"}
-    markers = {"vmess": ["#vmess", "#vmessgrpc", "#vmessxhttp"],
-               "vless": ["#vless", "#vlessgrpc", "#vlessxhttp"],
-               "trojan": ["#trojanws", "#trojangrpc", "#trojanxhttp"]}
-    for marker in markers[proto]:
-        xray_remove_user(r"^\s*###\s+" + re.escape(user) + r"\s")
+    prefix = {"vmess": "###", "vless": "#&", "trojan": "#!"}[proto]
+    xray_remove_user(r"^\s*" + re.escape(prefix) + r"\s+" + re.escape(user) + r"\s")
     rows = [r for r in db_read(proto) if r["user"] != user]
     db_write(proto, rows)
     set_iplimit(proto, user, 0)
@@ -253,7 +251,8 @@ def renew_xray_account(proto, user, exp_days):
     exp = days_to_date(exp_days)
     with open(XRAY_CONFIG) as f:
         cfg = f.read()
-    cfg = re.sub(rf"^### {re.escape(user)} \S+", f"### {user} {exp}", cfg, flags=re.M)
+    prefix = {"vmess": "###", "vless": "#&", "trojan": "#!"}[proto]
+    cfg = re.sub(rf"^{prefix} {re.escape(user)} \S+", f"{prefix} {user} {exp}", cfg, flags=re.M)
     open(XRAY_CONFIG, "w").write(cfg)
     rows = db_read(proto)
     for r in rows:
