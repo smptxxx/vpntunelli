@@ -667,6 +667,33 @@ apt autoremove -y > /dev/null 2>&1
 print_success "Install ePro WebSocket Proxy" 
 }
 
+function ins_vpnapi(){
+clear
+print_install "Install VPN REST API"
+mkdir -p /etc/xray
+wget -q -O /etc/xray/api-server.py "${REPO}api/api-server.py"
+chmod +x /etc/xray/api-server.py
+if [ ! -s /etc/xray/apikey ]; then
+    APIKEY=$(LC_CTYPE=C tr -dc 'a-z0-9' < /dev/urandom | head -c 10)
+    echo "$APIKEY" > /etc/xray/apikey
+fi
+chmod 600 /etc/xray/apikey
+wget -q -O /etc/systemd/system/vpnapi.service "${REPO}api/vpnapi.service"
+systemctl daemon-reload
+systemctl enable vpnapi
+systemctl restart vpnapi
+if ! grep -q "vpnapi" /etc/nginx/conf.d/xray.conf; then
+sed -i '/listen 81 ssl http2 reuseport;/a\
+    location /api/ {\
+        proxy_pass http://127.0.0.1:2500;\
+        proxy_set_header Host $host;\
+        proxy_set_header X-Real-IP $remote_addr;\
+    }\
+    location = /vps/doc { proxy_pass http://127.0.0.1:2500/doc; }' /etc/nginx/conf.d/xray.conf
+fi
+print_success "Install VPN REST API"
+}
+
 ins_udp() {
 clear
 print_install "Install UDP-Custom"
@@ -871,6 +898,7 @@ ins_openvpn
 ins_backup
 ins_swab
 ins_epro
+ins_vpnapi
 ins_udp
 ins_restart
 menu

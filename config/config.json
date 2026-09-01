@@ -195,6 +195,67 @@
           "serviceName": "ss-grpc"
         }
       }
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": "10016",
+      "protocol": "vless",
+      "settings": {
+        "decryption": "none",
+        "clients": [
+          {
+            "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
+#vlessxhttp
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "path": "/vless-xhttp"
+        }
+      }
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": "10017",
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
+            "alterId": 0
+#vmessxhttp
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "path": "/vmess-xhttp"
+        }
+      }
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": "10018",
+      "protocol": "trojan",
+      "settings": {
+        "decryption": "none",
+        "clients": [
+          {
+            "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
+#trojanxhttp
+          }
+        ],
+        "udp": true
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "path": "/trojan-xhttp"
+        }
+      }
     }
   ],
   "outbounds": [
