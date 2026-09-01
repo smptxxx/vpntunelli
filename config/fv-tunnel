@@ -1,0 +1,124 @@
+# !/bin/bash
+# ████████╗░█████╗░██╗░░██╗░█████╗░██╗░░░██╗██████╗░███╗░░██╗
+# ╚══██╔══╝██╔══██╗██║░██╔╝██╔══██╗██║░░░██║██╔══██╗████╗░██║
+# ░░░██║░░░██║░░██║█████═╝░██║░░██║╚██╗░██╔╝██████╔╝██╔██╗██║
+# ░░░██║░░░██║░░██║██╔═██╗░██║░░██║░╚████╔╝░██╔═══╝░██║╚████║
+# ░░░██║░░░╚█████╔╝██║░╚██╗╚█████╔╝░░╚██╔╝░░██║░░░░░██║░╚███║
+# ░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝░╚════╝░░░░╚═╝░░░╚═╝░░░░░╚═╝░░╚══╝
+
+rm -rf "$0"
+
+REPO="https://raw.githubusercontent.com/gemilangkinasih/autoscript/main/"
+wget -q -O /etc/systemd/system/limitvmess.service "${REPO}files/limitvmess.service" && chmod +x limitvmess.service >/dev/null 2>&1
+wget -q -O /etc/systemd/system/limitvless.service "${REPO}files/limitvless.service" && chmod +x limitvless.service >/dev/null 2>&1
+wget -q -O /etc/systemd/system/limittrojan.service "${REPO}files/limittrojan.service" && chmod +x limittrojan.service >/dev/null 2>&1
+# wget -q -O /etc/systemd/system/limitshadowsocks.service "${REPO}files/limitshadowsocks.service" && chmod +x limitshadowsocks.service >/dev/null 2>&1
+
+wget -q -O /etc/xray/limit.vmess "${REPO}files/vmess" >/dev/null 2>&1
+wget -q -O /etc/xray/limit.vless "${REPO}files/vless" >/dev/null 2>&1
+wget -q -O /etc/xray/limit.trojan "${REPO}files/trojan" >/dev/null 2>&1
+# wget -q -O /etc/xray/limit.shadowsocks "${REPO}files/shadowsocks" >/dev/null 2>&1
+
+chmod +x /etc/xray/limit.vmess
+chmod +x /etc/xray/limit.vless
+chmod +x /etc/xray/limit.trojan
+# chmod +x /etc/xray/limit.shadowsocks
+
+systemctl daemon-reload
+systemctl enable --now limitvmess
+systemctl enable --now limitvless
+systemctl enable --now limittrojan
+# systemctl enable --now limitshadowsocks
+
+# SERVICE LIMIT IP VMESS
+cat > /etc/systemd/system/vmip.service << EOF
+[Unit]
+Description=Set Up - By Gemilang Kinasih
+ProjectAfter=network.target
+
+[Service]
+WorkingDirectory=/root
+ExecStart=/usr/bin/bash vmess
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+# SERVICE LIMIT IP VLESS
+cat > /etc/systemd/system/vlip.service << EOF
+[Unit]
+Description=Set Up - By Gemilang Kinasih
+ProjectAfter=network.target
+
+[Service]
+WorkingDirectory=/root
+ExecStart=/usr/bin/bash vless
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+# SERVICE LIMIT TROJAN
+cat > /etc/systemd/system/vtrip.service << EOF
+[Unit]
+Description=Set Up - By Gemilang Kinasih
+ProjectAfter=network.target
+
+[Service]
+WorkingDirectory=/root
+ExecStart=/usr/bin/bash trojan
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+# SERVICE LIMIT IPSSH
+cat > /etc/systemd/system/vsip.service << EOF
+[Unit]
+Description=Set Up - By Gemilang Kinasih
+ProjectAfter=network.target
+
+[Service]
+WorkingDirectory=/root
+ExecStart=/usr/bin/bash tendang
+Restart=always
+
+[Install] 
+WantedBy=multi-user.target
+EOF
+
+# SERVICE KEAMANAN AUTOREBOT
+cat > /etc/systemd/system/keamanan.service << EOF
+[Unit]
+Description=Set Up - By Gemilang Kinasih
+ProjectAfter=network.target
+
+[Service]
+WorkingDirectory=/root
+ExecStart=/usr/bin/bash keamanan
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+wget -q -O /usr/bin/vmess "${REPO}files/vmessx" >/dev/null 2>&1
+wget -q -O /usr/bin/vless "${REPO}files/vlessx" >/dev/null 2>&1
+wget -q -O /usr/bin/trojan "${REPO}files/trojanx" >/dev/null 2>&1
+wget -q -O /usr/bin/tendang "${REPO}files/tendang" >/dev/null 2>&1
+wget -q -O /usr/bin/keamanan "${REPO}files/keamanan" >/dev/null 2>&1
+chmod +x /usr/bin/vmess
+chmod +x /usr/bin/vless
+chmod +x /usr/bin/trojan
+chmod +x /usr/bin/tendang
+chmod +x /usr/bin/keamanan
+
+systemctl daemon-reload
+systemctl enable --now vsip
+systemctl enable --now vmip
+systemctl enable --now vlip
+systemctl enable --now vtrip
+systemctl enable --now keamanan
