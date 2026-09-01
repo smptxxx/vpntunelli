@@ -43,6 +43,32 @@
           {
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vless
+#& Trial-VM007 2026-09-02
+},{"id": "45276c9b-df48-4d9b-8334-071cd454f5ca","email": "Trial-VM007"
+#& Trial-VM587 2026-09-02
+},{"id": "81437c12-95e4-44df-b177-5bc4852974e1","email": "Trial-VM587"
+#& cbfull2 2029-05-28
+},{"id": "9384588f-c0b8-4295-a2c6-e8837fde5f1f","email" : "cbfull2"
+#& Trial-VM754 2026-09-02
+},{"id": "774d3799-ef91-4fb8-b3e1-9a7e13f367b3","email": "Trial-VM754"
+#& Trial-VM317 2026-09-02
+},{"id": "42191739-9711-449f-aac5-51756bba09fc","email": "Trial-VM317"
+#& tvl7 2029-05-28
+},{"id": "1a93ba65-20d4-437d-b2f3-826928c01948","email" : "tvl7"
+#& tvl6 2029-05-28
+},{"id": "9e4d91e4-28e8-420f-b597-8e101f677945","email" : "tvl6"
+#& tvl5 2029-05-28
+},{"id": "bd5e4f6a-63d9-4806-b394-086c8d22d7a7","email" : "tvl5"
+#& tvl4 2029-05-28
+},{"id": "4c12d721-31a6-4655-8a93-74b2a8f37b45","email" : "tvl4"
+#& tvl3 2029-05-28
+},{"id": "b7c5be4a-fb16-45ab-9db7-1f3b0c7d14ad","email" : "tvl3"
+#& tvl2 2029-05-28
+},{"id": "0d84b0d0-476b-4eb9-bf42-248063deae5d","email" : "tvl2"
+#& tvl1 2029-05-28
+},{"id": "6c293755-82aa-48bd-8e25-05d9b02b2f0d","email" : "tvl1"
+#& Trial-VM451 2026-09-02
+},{"id": "e5d7b79a-6d7c-4f45-80b8-db11d3b45833","email": "Trial-VM451"
 #& 1000 2026-09-02
 },{"id": "d021ef1b-38de-4eff-b712-c11898653126","email" : "1000"
 #& cbvlstest 2029-05-28
@@ -71,6 +97,30 @@
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "alterId": 0
 #vmess
+### Trial-VM741 2026-09-02
+},{"id": "3072b3f8-0f94-48e5-8259-958c9dfc2aac","alterId": 0,"email": "Trial-VM741"
+### cbfull1 2029-05-28
+},{"id": "d848404d-e990-460d-9ec1-af6557034fbc","alterId": 0,"email": "cbfull1"
+### Trial-VM356 2026-09-02
+},{"id": "e18830a5-7091-4596-af25-834e0e8f66d6","alterId": 0,"email": "Trial-VM356"
+### tvm9 2029-05-28
+},{"id": "a70971e3-4cc8-4254-a4d9-e16b2bfa8f64","alterId": 0,"email": "tvm9"
+### Trial-VM835 2026-09-02
+},{"id": "6f2518d8-1584-48cb-b050-b583332a7a8b","alterId": 0,"email": "Trial-VM835"
+### Trial-VM112 2026-09-02
+},{"id": "3a7d6ae1-dc2c-4696-87c6-8c9c11c582a4","alterId": 0,"email": "Trial-VM112"
+### Trial-VM171 2026-09-02
+},{"id": "c2481ce3-17d6-422a-b944-eef17a6443b5","alterId": 0,"email": "Trial-VM171"
+### tesss3 2029-05-28
+},{"id": "dd5ec6a2-88e0-4ffe-91b7-a512909919cc","alterId": 0,"email": "tesss3"
+### tesss2 2029-05-28
+},{"id": "fe046bd1-e348-42e8-b5b6-c9c73c62fd16","alterId": 0,"email": "tesss2"
+### ahj1a10 2026-10-01
+},{"id": "4f63afea-2e88-4fb5-bd15-7c10158eb46b","alterId": 0,"email": "ahj1a10"
+### tesss 2026-09-02
+},{"id": "ec0ad57c-4dfb-4245-9fe2-b03fb3efb315","alterId": 0,"email": "tesss"
+### Trial-VM483 2026-09-02
+},{"id": "4ed94989-c275-4375-a410-85c94fe95114","alterId": 0,"email": "Trial-VM483"
 ### cbotest1 2029-05-28
 },{"id": "f1b1cf2a-7b78-48fd-b45b-7cf0e7cd1d8f","alterId": 0,"email": "cbotest1"
 ### Trial-VM338 2026-09-02
@@ -101,6 +151,16 @@
           {
             "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #trojanws
+#! Trial-VM275 2026-09-02
+},{"password": "9f17f11c-448a-49e3-8bd4-2ac73652fd73","email": "Trial-VM275"
+#! cbfull3 2029-05-28
+},{"password": "86d01ead-91d0-4eea-98bd-fee875b8e29d","email": "cbfull3"
+#! Trial-VM399 2026-09-02
+},{"password": "12a9b82a-b40a-4a44-b970-c9d2805e494b","email": "Trial-VM399"
+#! ttr7 2029-05-28
+},{"password": "c3b4bd56-9697-4e82-bc2c-1f93479be817","email": "ttr7"
+#! ttr1 2029-05-28
+},{"password": "ff0734c5-563b-4dd1-9368-4d6dfe88ee32","email": "ttr1"
 #! cbtrtest 2029-05-28
 },{"password": "bea5e6e7-1644-41ef-bfb3-af785ab10db3","email": "cbtrtest"
 #! Trial-VM424 2026-09-02
@@ -149,6 +209,32 @@
           {
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vlessgrpc
+#& Trial-VM007 2026-09-02
+},{"id": "45276c9b-df48-4d9b-8334-071cd454f5ca","email": "Trial-VM007"
+#& Trial-VM587 2026-09-02
+},{"id": "81437c12-95e4-44df-b177-5bc4852974e1","email": "Trial-VM587"
+#& cbfull2 2029-05-28
+},{"id": "9384588f-c0b8-4295-a2c6-e8837fde5f1f","email" : "cbfull2"
+#& Trial-VM754 2026-09-02
+},{"id": "774d3799-ef91-4fb8-b3e1-9a7e13f367b3","email": "Trial-VM754"
+#& Trial-VM317 2026-09-02
+},{"id": "42191739-9711-449f-aac5-51756bba09fc","email": "Trial-VM317"
+#& tvl7 2029-05-28
+},{"id": "1a93ba65-20d4-437d-b2f3-826928c01948","email" : "tvl7"
+#& tvl6 2029-05-28
+},{"id": "9e4d91e4-28e8-420f-b597-8e101f677945","email" : "tvl6"
+#& tvl5 2029-05-28
+},{"id": "bd5e4f6a-63d9-4806-b394-086c8d22d7a7","email" : "tvl5"
+#& tvl4 2029-05-28
+},{"id": "4c12d721-31a6-4655-8a93-74b2a8f37b45","email" : "tvl4"
+#& tvl3 2029-05-28
+},{"id": "b7c5be4a-fb16-45ab-9db7-1f3b0c7d14ad","email" : "tvl3"
+#& tvl2 2029-05-28
+},{"id": "0d84b0d0-476b-4eb9-bf42-248063deae5d","email" : "tvl2"
+#& tvl1 2029-05-28
+},{"id": "6c293755-82aa-48bd-8e25-05d9b02b2f0d","email" : "tvl1"
+#& Trial-VM451 2026-09-02
+},{"id": "e5d7b79a-6d7c-4f45-80b8-db11d3b45833","email": "Trial-VM451"
 #& 1000 2026-09-02
 },{"id": "d021ef1b-38de-4eff-b712-c11898653126","email" : "1000"
 #& cbvlstest 2029-05-28
@@ -177,6 +263,30 @@
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "alterId": 0
 #vmessgrpc
+### Trial-VM741 2026-09-02
+},{"id": "3072b3f8-0f94-48e5-8259-958c9dfc2aac","alterId": 0,"email": "Trial-VM741"
+### cbfull1 2029-05-28
+},{"id": "d848404d-e990-460d-9ec1-af6557034fbc","alterId": 0,"email": "cbfull1"
+### Trial-VM356 2026-09-02
+},{"id": "e18830a5-7091-4596-af25-834e0e8f66d6","alterId": 0,"email": "Trial-VM356"
+### tvm9 2029-05-28
+},{"id": "a70971e3-4cc8-4254-a4d9-e16b2bfa8f64","alterId": 0,"email": "tvm9"
+### Trial-VM835 2026-09-02
+},{"id": "6f2518d8-1584-48cb-b050-b583332a7a8b","alterId": 0,"email": "Trial-VM835"
+### Trial-VM112 2026-09-02
+},{"id": "3a7d6ae1-dc2c-4696-87c6-8c9c11c582a4","alterId": 0,"email": "Trial-VM112"
+### Trial-VM171 2026-09-02
+},{"id": "c2481ce3-17d6-422a-b944-eef17a6443b5","alterId": 0,"email": "Trial-VM171"
+### tesss3 2029-05-28
+},{"id": "dd5ec6a2-88e0-4ffe-91b7-a512909919cc","alterId": 0,"email": "tesss3"
+### tesss2 2029-05-28
+},{"id": "fe046bd1-e348-42e8-b5b6-c9c73c62fd16","alterId": 0,"email": "tesss2"
+### ahj1a10 2026-10-01
+},{"id": "4f63afea-2e88-4fb5-bd15-7c10158eb46b","alterId": 0,"email": "ahj1a10"
+### tesss 2026-09-02
+},{"id": "ec0ad57c-4dfb-4245-9fe2-b03fb3efb315","alterId": 0,"email": "tesss"
+### Trial-VM483 2026-09-02
+},{"id": "4ed94989-c275-4375-a410-85c94fe95114","alterId": 0,"email": "Trial-VM483"
 ### cbotest1 2029-05-28
 },{"id": "f1b1cf2a-7b78-48fd-b45b-7cf0e7cd1d8f","alterId": 0,"email": "cbotest1"
 ### Trial-VM338 2026-09-02
@@ -207,6 +317,16 @@
           {
             "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #trojangrpc
+#! Trial-VM275 2026-09-02
+},{"password": "9f17f11c-448a-49e3-8bd4-2ac73652fd73","email": "Trial-VM275"
+#! cbfull3 2029-05-28
+},{"password": "86d01ead-91d0-4eea-98bd-fee875b8e29d","email": "cbfull3"
+#! Trial-VM399 2026-09-02
+},{"password": "12a9b82a-b40a-4a44-b970-c9d2805e494b","email": "Trial-VM399"
+#! ttr7 2029-05-28
+},{"password": "c3b4bd56-9697-4e82-bc2c-1f93479be817","email": "ttr7"
+#! ttr1 2029-05-28
+},{"password": "ff0734c5-563b-4dd1-9368-4d6dfe88ee32","email": "ttr1"
 #! cbtrtest 2029-05-28
 },{"password": "bea5e6e7-1644-41ef-bfb3-af785ab10db3","email": "cbtrtest"
 #! Trial-VM424 2026-09-02
@@ -254,6 +374,32 @@
           {
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vlessxhttp
+#& Trial-VM007 2026-09-02
+},{"id": "45276c9b-df48-4d9b-8334-071cd454f5ca","email" : "Trial-VM007"
+#& Trial-VM587 2026-09-02
+},{"id": "81437c12-95e4-44df-b177-5bc4852974e1","email" : "Trial-VM587"
+#& cbfull2 2029-05-28
+},{"id": "9384588f-c0b8-4295-a2c6-e8837fde5f1f","email" : "cbfull2"
+#& Trial-VM754 2026-09-02
+},{"id": "774d3799-ef91-4fb8-b3e1-9a7e13f367b3","email" : "Trial-VM754"
+#& Trial-VM317 2026-09-02
+},{"id": "42191739-9711-449f-aac5-51756bba09fc","email" : "Trial-VM317"
+#& tvl7 2029-05-28
+},{"id": "1a93ba65-20d4-437d-b2f3-826928c01948","email" : "tvl7"
+#& tvl6 2029-05-28
+},{"id": "9e4d91e4-28e8-420f-b597-8e101f677945","email" : "tvl6"
+#& tvl5 2029-05-28
+},{"id": "bd5e4f6a-63d9-4806-b394-086c8d22d7a7","email" : "tvl5"
+#& tvl4 2029-05-28
+},{"id": "4c12d721-31a6-4655-8a93-74b2a8f37b45","email" : "tvl4"
+#& tvl3 2029-05-28
+},{"id": "b7c5be4a-fb16-45ab-9db7-1f3b0c7d14ad","email" : "tvl3"
+#& tvl2 2029-05-28
+},{"id": "0d84b0d0-476b-4eb9-bf42-248063deae5d","email" : "tvl2"
+#& tvl1 2029-05-28
+},{"id": "6c293755-82aa-48bd-8e25-05d9b02b2f0d","email" : "tvl1"
+#& Trial-VM451 2026-09-02
+},{"id": "e5d7b79a-6d7c-4f45-80b8-db11d3b45833","email" : "Trial-VM451"
 #& 1000 2026-09-02
 },{"id": "d021ef1b-38de-4eff-b712-c11898653126","email" : "1000"
 #& cbvlstest 2029-05-28
@@ -282,6 +428,20 @@
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "alterId": 0
 #vmessxhttp
+### Trial-VM741 2026-09-02
+},{"id": "3072b3f8-0f94-48e5-8259-958c9dfc2aac","alterId": 0,"email": "Trial-VM741"
+### Trial-VM356 2026-09-02
+},{"id": "e18830a5-7091-4596-af25-834e0e8f66d6","alterId": 0,"email": "Trial-VM356"
+### Trial-VM835 2026-09-02
+},{"id": "6f2518d8-1584-48cb-b050-b583332a7a8b","alterId": 0,"email": "Trial-VM835"
+### Trial-VM112 2026-09-02
+},{"id": "3a7d6ae1-dc2c-4696-87c6-8c9c11c582a4","alterId": 0,"email": "Trial-VM112"
+### Trial-VM171 2026-09-02
+},{"id": "c2481ce3-17d6-422a-b944-eef17a6443b5","alterId": 0,"email": "Trial-VM171"
+### ahj1a10 2026-10-01
+},{"id": "4f63afea-2e88-4fb5-bd15-7c10158eb46b","alterId": 0,"email": "ahj1a10"
+### Trial-VM483 2026-09-02
+},{"id": "4ed94989-c275-4375-a410-85c94fe95114","alterId": 0,"email": "Trial-VM483"
 ### Trial-VM338 2026-09-02
 },{"id": "6299a579-6e09-4164-9557-32bcf628e07c","alterId": 0,"email": "Trial-VM338"
 ### Trial-VM130 2026-09-02
@@ -310,6 +470,16 @@
           {
             "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #trojanxhttp
+#! Trial-VM275 2026-09-02
+},{"password": "9f17f11c-448a-49e3-8bd4-2ac73652fd73","email": "Trial-VM275"
+#! cbfull3 2029-05-28
+},{"password": "86d01ead-91d0-4eea-98bd-fee875b8e29d","email": "cbfull3"
+#! Trial-VM399 2026-09-02
+},{"password": "12a9b82a-b40a-4a44-b970-c9d2805e494b","email": "Trial-VM399"
+#! ttr7 2029-05-28
+},{"password": "c3b4bd56-9697-4e82-bc2c-1f93479be817","email": "ttr7"
+#! ttr1 2029-05-28
+},{"password": "ff0734c5-563b-4dd1-9368-4d6dfe88ee32","email": "ttr1"
 #! cbtrtest 2029-05-28
 },{"password": "bea5e6e7-1644-41ef-bfb3-af785ab10db3","email": "cbtrtest"
 #! Trial-VM424 2026-09-02
@@ -328,7 +498,7 @@
       }
     },
     {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10030,
       "protocol": "vmess",
       "settings": {
@@ -337,6 +507,28 @@
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "alterId": 0
 #vmesstcp-tls
+### Trial-VM741 2026-09-02
+},{"id": "3072b3f8-0f94-48e5-8259-958c9dfc2aac","alterId": 0,"email": "Trial-VM741"
+### cbfull1 2029-05-28
+},{"id": "d848404d-e990-460d-9ec1-af6557034fbc","alterId": 0,"email": "cbfull1"
+### Trial-VM356 2026-09-02
+},{"id": "e18830a5-7091-4596-af25-834e0e8f66d6","alterId": 0,"email": "Trial-VM356"
+### tvm9 2029-05-28
+},{"id": "a70971e3-4cc8-4254-a4d9-e16b2bfa8f64","alterId": 0,"email": "tvm9"
+### Trial-VM835 2026-09-02
+},{"id": "6f2518d8-1584-48cb-b050-b583332a7a8b","alterId": 0,"email": "Trial-VM835"
+### Trial-VM112 2026-09-02
+},{"id": "3a7d6ae1-dc2c-4696-87c6-8c9c11c582a4","alterId": 0,"email": "Trial-VM112"
+### Trial-VM171 2026-09-02
+},{"id": "c2481ce3-17d6-422a-b944-eef17a6443b5","alterId": 0,"email": "Trial-VM171"
+### tesss3 2029-05-28
+},{"id": "dd5ec6a2-88e0-4ffe-91b7-a512909919cc","alterId": 0,"email": "tesss3"
+### tesss2 2029-05-28
+},{"id": "fe046bd1-e348-42e8-b5b6-c9c73c62fd16","alterId": 0,"email": "tesss2"
+### tesss 2026-09-02
+},{"id": "ec0ad57c-4dfb-4245-9fe2-b03fb3efb315","alterId": 0,"email": "tesss"
+### Trial-VM483 2026-09-02
+},{"id": "4ed94989-c275-4375-a410-85c94fe95114","alterId": 0,"email": "Trial-VM483"
 ### cbotest1 2029-05-28
 },{"id": "f1b1cf2a-7b78-48fd-b45b-7cf0e7cd1d8f","alterId": 0,"email": "cbotest1"
           }
@@ -364,7 +556,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10031,
       "protocol": "vmess",
       "settings": {
@@ -373,6 +565,28 @@
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "alterId": 0
 #vmesstcp-none
+### Trial-VM741 2026-09-02
+},{"id": "3072b3f8-0f94-48e5-8259-958c9dfc2aac","alterId": 0,"email": "Trial-VM741"
+### cbfull1 2029-05-28
+},{"id": "d848404d-e990-460d-9ec1-af6557034fbc","alterId": 0,"email": "cbfull1"
+### Trial-VM356 2026-09-02
+},{"id": "e18830a5-7091-4596-af25-834e0e8f66d6","alterId": 0,"email": "Trial-VM356"
+### tvm9 2029-05-28
+},{"id": "a70971e3-4cc8-4254-a4d9-e16b2bfa8f64","alterId": 0,"email": "tvm9"
+### Trial-VM835 2026-09-02
+},{"id": "6f2518d8-1584-48cb-b050-b583332a7a8b","alterId": 0,"email": "Trial-VM835"
+### Trial-VM112 2026-09-02
+},{"id": "3a7d6ae1-dc2c-4696-87c6-8c9c11c582a4","alterId": 0,"email": "Trial-VM112"
+### Trial-VM171 2026-09-02
+},{"id": "c2481ce3-17d6-422a-b944-eef17a6443b5","alterId": 0,"email": "Trial-VM171"
+### tesss3 2029-05-28
+},{"id": "dd5ec6a2-88e0-4ffe-91b7-a512909919cc","alterId": 0,"email": "tesss3"
+### tesss2 2029-05-28
+},{"id": "fe046bd1-e348-42e8-b5b6-c9c73c62fd16","alterId": 0,"email": "tesss2"
+### tesss 2026-09-02
+},{"id": "ec0ad57c-4dfb-4245-9fe2-b03fb3efb315","alterId": 0,"email": "tesss"
+### Trial-VM483 2026-09-02
+},{"id": "4ed94989-c275-4375-a410-85c94fe95114","alterId": 0,"email": "Trial-VM483"
 ### cbotest1 2029-05-28
 },{"id": "f1b1cf2a-7b78-48fd-b45b-7cf0e7cd1d8f","alterId": 0,"email": "cbotest1"
           }
@@ -391,7 +605,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10032,
       "protocol": "vmess",
       "settings": {
@@ -400,6 +614,28 @@
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "alterId": 0
 #vmesskcp-tls
+### Trial-VM741 2026-09-02
+},{"id": "3072b3f8-0f94-48e5-8259-958c9dfc2aac","alterId": 0,"email": "Trial-VM741"
+### cbfull1 2029-05-28
+},{"id": "d848404d-e990-460d-9ec1-af6557034fbc","alterId": 0,"email": "cbfull1"
+### Trial-VM356 2026-09-02
+},{"id": "e18830a5-7091-4596-af25-834e0e8f66d6","alterId": 0,"email": "Trial-VM356"
+### tvm9 2029-05-28
+},{"id": "a70971e3-4cc8-4254-a4d9-e16b2bfa8f64","alterId": 0,"email": "tvm9"
+### Trial-VM835 2026-09-02
+},{"id": "6f2518d8-1584-48cb-b050-b583332a7a8b","alterId": 0,"email": "Trial-VM835"
+### Trial-VM112 2026-09-02
+},{"id": "3a7d6ae1-dc2c-4696-87c6-8c9c11c582a4","alterId": 0,"email": "Trial-VM112"
+### Trial-VM171 2026-09-02
+},{"id": "c2481ce3-17d6-422a-b944-eef17a6443b5","alterId": 0,"email": "Trial-VM171"
+### tesss3 2029-05-28
+},{"id": "dd5ec6a2-88e0-4ffe-91b7-a512909919cc","alterId": 0,"email": "tesss3"
+### tesss2 2029-05-28
+},{"id": "fe046bd1-e348-42e8-b5b6-c9c73c62fd16","alterId": 0,"email": "tesss2"
+### tesss 2026-09-02
+},{"id": "ec0ad57c-4dfb-4245-9fe2-b03fb3efb315","alterId": 0,"email": "tesss"
+### Trial-VM483 2026-09-02
+},{"id": "4ed94989-c275-4375-a410-85c94fe95114","alterId": 0,"email": "Trial-VM483"
 ### cbotest1 2029-05-28
 },{"id": "f1b1cf2a-7b78-48fd-b45b-7cf0e7cd1d8f","alterId": 0,"email": "cbotest1"
           }
@@ -434,7 +670,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10033,
       "protocol": "vmess",
       "settings": {
@@ -443,6 +679,28 @@
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "alterId": 0
 #vmesskcp-none
+### Trial-VM741 2026-09-02
+},{"id": "3072b3f8-0f94-48e5-8259-958c9dfc2aac","alterId": 0,"email": "Trial-VM741"
+### cbfull1 2029-05-28
+},{"id": "d848404d-e990-460d-9ec1-af6557034fbc","alterId": 0,"email": "cbfull1"
+### Trial-VM356 2026-09-02
+},{"id": "e18830a5-7091-4596-af25-834e0e8f66d6","alterId": 0,"email": "Trial-VM356"
+### tvm9 2029-05-28
+},{"id": "a70971e3-4cc8-4254-a4d9-e16b2bfa8f64","alterId": 0,"email": "tvm9"
+### Trial-VM835 2026-09-02
+},{"id": "6f2518d8-1584-48cb-b050-b583332a7a8b","alterId": 0,"email": "Trial-VM835"
+### Trial-VM112 2026-09-02
+},{"id": "3a7d6ae1-dc2c-4696-87c6-8c9c11c582a4","alterId": 0,"email": "Trial-VM112"
+### Trial-VM171 2026-09-02
+},{"id": "c2481ce3-17d6-422a-b944-eef17a6443b5","alterId": 0,"email": "Trial-VM171"
+### tesss3 2029-05-28
+},{"id": "dd5ec6a2-88e0-4ffe-91b7-a512909919cc","alterId": 0,"email": "tesss3"
+### tesss2 2029-05-28
+},{"id": "fe046bd1-e348-42e8-b5b6-c9c73c62fd16","alterId": 0,"email": "tesss2"
+### tesss 2026-09-02
+},{"id": "ec0ad57c-4dfb-4245-9fe2-b03fb3efb315","alterId": 0,"email": "tesss"
+### Trial-VM483 2026-09-02
+},{"id": "4ed94989-c275-4375-a410-85c94fe95114","alterId": 0,"email": "Trial-VM483"
 ### cbotest1 2029-05-28
 },{"id": "f1b1cf2a-7b78-48fd-b45b-7cf0e7cd1d8f","alterId": 0,"email": "cbotest1"
           }
@@ -468,7 +726,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10034,
       "protocol": "vmess",
       "settings": {
@@ -477,6 +735,28 @@
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "alterId": 0
 #vmessws-tls
+### Trial-VM741 2026-09-02
+},{"id": "3072b3f8-0f94-48e5-8259-958c9dfc2aac","alterId": 0,"email": "Trial-VM741"
+### cbfull1 2029-05-28
+},{"id": "d848404d-e990-460d-9ec1-af6557034fbc","alterId": 0,"email": "cbfull1"
+### Trial-VM356 2026-09-02
+},{"id": "e18830a5-7091-4596-af25-834e0e8f66d6","alterId": 0,"email": "Trial-VM356"
+### tvm9 2029-05-28
+},{"id": "a70971e3-4cc8-4254-a4d9-e16b2bfa8f64","alterId": 0,"email": "tvm9"
+### Trial-VM835 2026-09-02
+},{"id": "6f2518d8-1584-48cb-b050-b583332a7a8b","alterId": 0,"email": "Trial-VM835"
+### Trial-VM112 2026-09-02
+},{"id": "3a7d6ae1-dc2c-4696-87c6-8c9c11c582a4","alterId": 0,"email": "Trial-VM112"
+### Trial-VM171 2026-09-02
+},{"id": "c2481ce3-17d6-422a-b944-eef17a6443b5","alterId": 0,"email": "Trial-VM171"
+### tesss3 2029-05-28
+},{"id": "dd5ec6a2-88e0-4ffe-91b7-a512909919cc","alterId": 0,"email": "tesss3"
+### tesss2 2029-05-28
+},{"id": "fe046bd1-e348-42e8-b5b6-c9c73c62fd16","alterId": 0,"email": "tesss2"
+### tesss 2026-09-02
+},{"id": "ec0ad57c-4dfb-4245-9fe2-b03fb3efb315","alterId": 0,"email": "tesss"
+### Trial-VM483 2026-09-02
+},{"id": "4ed94989-c275-4375-a410-85c94fe95114","alterId": 0,"email": "Trial-VM483"
 ### cbotest1 2029-05-28
 },{"id": "f1b1cf2a-7b78-48fd-b45b-7cf0e7cd1d8f","alterId": 0,"email": "cbotest1"
           }
@@ -486,7 +766,7 @@
       "streamSettings": {
         "network": "ws",
           "wsSettings": {
-            "path": "/ws"
+            "path": "/n-ws-vmess"
           },
           "security": "tls",
           "tlsSettings": {
@@ -505,7 +785,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10035,
       "protocol": "vmess",
       "settings": {
@@ -514,6 +794,28 @@
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "alterId": 0
 #vmessws-none
+### Trial-VM741 2026-09-02
+},{"id": "3072b3f8-0f94-48e5-8259-958c9dfc2aac","alterId": 0,"email": "Trial-VM741"
+### cbfull1 2029-05-28
+},{"id": "d848404d-e990-460d-9ec1-af6557034fbc","alterId": 0,"email": "cbfull1"
+### Trial-VM356 2026-09-02
+},{"id": "e18830a5-7091-4596-af25-834e0e8f66d6","alterId": 0,"email": "Trial-VM356"
+### tvm9 2029-05-28
+},{"id": "a70971e3-4cc8-4254-a4d9-e16b2bfa8f64","alterId": 0,"email": "tvm9"
+### Trial-VM835 2026-09-02
+},{"id": "6f2518d8-1584-48cb-b050-b583332a7a8b","alterId": 0,"email": "Trial-VM835"
+### Trial-VM112 2026-09-02
+},{"id": "3a7d6ae1-dc2c-4696-87c6-8c9c11c582a4","alterId": 0,"email": "Trial-VM112"
+### Trial-VM171 2026-09-02
+},{"id": "c2481ce3-17d6-422a-b944-eef17a6443b5","alterId": 0,"email": "Trial-VM171"
+### tesss3 2029-05-28
+},{"id": "dd5ec6a2-88e0-4ffe-91b7-a512909919cc","alterId": 0,"email": "tesss3"
+### tesss2 2029-05-28
+},{"id": "fe046bd1-e348-42e8-b5b6-c9c73c62fd16","alterId": 0,"email": "tesss2"
+### tesss 2026-09-02
+},{"id": "ec0ad57c-4dfb-4245-9fe2-b03fb3efb315","alterId": 0,"email": "tesss"
+### Trial-VM483 2026-09-02
+},{"id": "4ed94989-c275-4375-a410-85c94fe95114","alterId": 0,"email": "Trial-VM483"
 ### cbotest1 2029-05-28
 },{"id": "f1b1cf2a-7b78-48fd-b45b-7cf0e7cd1d8f","alterId": 0,"email": "cbotest1"
           }
@@ -533,7 +835,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10036,
       "protocol": "vmess",
       "settings": {
@@ -542,6 +844,28 @@
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "alterId": 0
 #vmesshttp-tls
+### Trial-VM741 2026-09-02
+},{"id": "3072b3f8-0f94-48e5-8259-958c9dfc2aac","alterId": 0,"email": "Trial-VM741"
+### cbfull1 2029-05-28
+},{"id": "d848404d-e990-460d-9ec1-af6557034fbc","alterId": 0,"email": "cbfull1"
+### Trial-VM356 2026-09-02
+},{"id": "e18830a5-7091-4596-af25-834e0e8f66d6","alterId": 0,"email": "Trial-VM356"
+### tvm9 2029-05-28
+},{"id": "a70971e3-4cc8-4254-a4d9-e16b2bfa8f64","alterId": 0,"email": "tvm9"
+### Trial-VM835 2026-09-02
+},{"id": "6f2518d8-1584-48cb-b050-b583332a7a8b","alterId": 0,"email": "Trial-VM835"
+### Trial-VM112 2026-09-02
+},{"id": "3a7d6ae1-dc2c-4696-87c6-8c9c11c582a4","alterId": 0,"email": "Trial-VM112"
+### Trial-VM171 2026-09-02
+},{"id": "c2481ce3-17d6-422a-b944-eef17a6443b5","alterId": 0,"email": "Trial-VM171"
+### tesss3 2029-05-28
+},{"id": "dd5ec6a2-88e0-4ffe-91b7-a512909919cc","alterId": 0,"email": "tesss3"
+### tesss2 2029-05-28
+},{"id": "fe046bd1-e348-42e8-b5b6-c9c73c62fd16","alterId": 0,"email": "tesss2"
+### tesss 2026-09-02
+},{"id": "ec0ad57c-4dfb-4245-9fe2-b03fb3efb315","alterId": 0,"email": "tesss"
+### Trial-VM483 2026-09-02
+},{"id": "4ed94989-c275-4375-a410-85c94fe95114","alterId": 0,"email": "Trial-VM483"
 ### cbotest1 2029-05-28
 },{"id": "f1b1cf2a-7b78-48fd-b45b-7cf0e7cd1d8f","alterId": 0,"email": "cbotest1"
           }
@@ -575,7 +899,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10037,
       "protocol": "vmess",
       "settings": {
@@ -584,6 +908,28 @@
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "alterId": 0
 #vmesshttp-none
+### Trial-VM741 2026-09-02
+},{"id": "3072b3f8-0f94-48e5-8259-958c9dfc2aac","alterId": 0,"email": "Trial-VM741"
+### cbfull1 2029-05-28
+},{"id": "d848404d-e990-460d-9ec1-af6557034fbc","alterId": 0,"email": "cbfull1"
+### Trial-VM356 2026-09-02
+},{"id": "e18830a5-7091-4596-af25-834e0e8f66d6","alterId": 0,"email": "Trial-VM356"
+### tvm9 2029-05-28
+},{"id": "a70971e3-4cc8-4254-a4d9-e16b2bfa8f64","alterId": 0,"email": "tvm9"
+### Trial-VM835 2026-09-02
+},{"id": "6f2518d8-1584-48cb-b050-b583332a7a8b","alterId": 0,"email": "Trial-VM835"
+### Trial-VM112 2026-09-02
+},{"id": "3a7d6ae1-dc2c-4696-87c6-8c9c11c582a4","alterId": 0,"email": "Trial-VM112"
+### Trial-VM171 2026-09-02
+},{"id": "c2481ce3-17d6-422a-b944-eef17a6443b5","alterId": 0,"email": "Trial-VM171"
+### tesss3 2029-05-28
+},{"id": "dd5ec6a2-88e0-4ffe-91b7-a512909919cc","alterId": 0,"email": "tesss3"
+### tesss2 2029-05-28
+},{"id": "fe046bd1-e348-42e8-b5b6-c9c73c62fd16","alterId": 0,"email": "tesss2"
+### tesss 2026-09-02
+},{"id": "ec0ad57c-4dfb-4245-9fe2-b03fb3efb315","alterId": 0,"email": "tesss"
+### Trial-VM483 2026-09-02
+},{"id": "4ed94989-c275-4375-a410-85c94fe95114","alterId": 0,"email": "Trial-VM483"
 ### cbotest1 2029-05-28
 },{"id": "f1b1cf2a-7b78-48fd-b45b-7cf0e7cd1d8f","alterId": 0,"email": "cbotest1"
           }
@@ -608,7 +954,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10038,
       "protocol": "vmess",
       "settings": {
@@ -617,6 +963,28 @@
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "alterId": 0
 #vmessgrpc-tls
+### Trial-VM741 2026-09-02
+},{"id": "3072b3f8-0f94-48e5-8259-958c9dfc2aac","alterId": 0,"email": "Trial-VM741"
+### cbfull1 2029-05-28
+},{"id": "d848404d-e990-460d-9ec1-af6557034fbc","alterId": 0,"email": "cbfull1"
+### Trial-VM356 2026-09-02
+},{"id": "e18830a5-7091-4596-af25-834e0e8f66d6","alterId": 0,"email": "Trial-VM356"
+### tvm9 2029-05-28
+},{"id": "a70971e3-4cc8-4254-a4d9-e16b2bfa8f64","alterId": 0,"email": "tvm9"
+### Trial-VM835 2026-09-02
+},{"id": "6f2518d8-1584-48cb-b050-b583332a7a8b","alterId": 0,"email": "Trial-VM835"
+### Trial-VM112 2026-09-02
+},{"id": "3a7d6ae1-dc2c-4696-87c6-8c9c11c582a4","alterId": 0,"email": "Trial-VM112"
+### Trial-VM171 2026-09-02
+},{"id": "c2481ce3-17d6-422a-b944-eef17a6443b5","alterId": 0,"email": "Trial-VM171"
+### tesss3 2029-05-28
+},{"id": "dd5ec6a2-88e0-4ffe-91b7-a512909919cc","alterId": 0,"email": "tesss3"
+### tesss2 2029-05-28
+},{"id": "fe046bd1-e348-42e8-b5b6-c9c73c62fd16","alterId": 0,"email": "tesss2"
+### tesss 2026-09-02
+},{"id": "ec0ad57c-4dfb-4245-9fe2-b03fb3efb315","alterId": 0,"email": "tesss"
+### Trial-VM483 2026-09-02
+},{"id": "4ed94989-c275-4375-a410-85c94fe95114","alterId": 0,"email": "Trial-VM483"
 ### cbotest1 2029-05-28
 },{"id": "f1b1cf2a-7b78-48fd-b45b-7cf0e7cd1d8f","alterId": 0,"email": "cbotest1"
           }
@@ -645,7 +1013,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10039,
       "protocol": "vmess",
       "settings": {
@@ -654,6 +1022,28 @@
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "alterId": 0
 #vmessgrpc-none
+### Trial-VM741 2026-09-02
+},{"id": "3072b3f8-0f94-48e5-8259-958c9dfc2aac","alterId": 0,"email": "Trial-VM741"
+### cbfull1 2029-05-28
+},{"id": "d848404d-e990-460d-9ec1-af6557034fbc","alterId": 0,"email": "cbfull1"
+### Trial-VM356 2026-09-02
+},{"id": "e18830a5-7091-4596-af25-834e0e8f66d6","alterId": 0,"email": "Trial-VM356"
+### tvm9 2029-05-28
+},{"id": "a70971e3-4cc8-4254-a4d9-e16b2bfa8f64","alterId": 0,"email": "tvm9"
+### Trial-VM835 2026-09-02
+},{"id": "6f2518d8-1584-48cb-b050-b583332a7a8b","alterId": 0,"email": "Trial-VM835"
+### Trial-VM112 2026-09-02
+},{"id": "3a7d6ae1-dc2c-4696-87c6-8c9c11c582a4","alterId": 0,"email": "Trial-VM112"
+### Trial-VM171 2026-09-02
+},{"id": "c2481ce3-17d6-422a-b944-eef17a6443b5","alterId": 0,"email": "Trial-VM171"
+### tesss3 2029-05-28
+},{"id": "dd5ec6a2-88e0-4ffe-91b7-a512909919cc","alterId": 0,"email": "tesss3"
+### tesss2 2029-05-28
+},{"id": "fe046bd1-e348-42e8-b5b6-c9c73c62fd16","alterId": 0,"email": "tesss2"
+### tesss 2026-09-02
+},{"id": "ec0ad57c-4dfb-4245-9fe2-b03fb3efb315","alterId": 0,"email": "tesss"
+### Trial-VM483 2026-09-02
+},{"id": "4ed94989-c275-4375-a410-85c94fe95114","alterId": 0,"email": "Trial-VM483"
 ### cbotest1 2029-05-28
 },{"id": "f1b1cf2a-7b78-48fd-b45b-7cf0e7cd1d8f","alterId": 0,"email": "cbotest1"
           }
@@ -673,7 +1063,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10040,
       "protocol": "vmess",
       "settings": {
@@ -682,6 +1072,28 @@
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "alterId": 0
 #vmesshttpupgrade-tls
+### Trial-VM741 2026-09-02
+},{"id": "3072b3f8-0f94-48e5-8259-958c9dfc2aac","alterId": 0,"email": "Trial-VM741"
+### cbfull1 2029-05-28
+},{"id": "d848404d-e990-460d-9ec1-af6557034fbc","alterId": 0,"email": "cbfull1"
+### Trial-VM356 2026-09-02
+},{"id": "e18830a5-7091-4596-af25-834e0e8f66d6","alterId": 0,"email": "Trial-VM356"
+### tvm9 2029-05-28
+},{"id": "a70971e3-4cc8-4254-a4d9-e16b2bfa8f64","alterId": 0,"email": "tvm9"
+### Trial-VM835 2026-09-02
+},{"id": "6f2518d8-1584-48cb-b050-b583332a7a8b","alterId": 0,"email": "Trial-VM835"
+### Trial-VM112 2026-09-02
+},{"id": "3a7d6ae1-dc2c-4696-87c6-8c9c11c582a4","alterId": 0,"email": "Trial-VM112"
+### Trial-VM171 2026-09-02
+},{"id": "c2481ce3-17d6-422a-b944-eef17a6443b5","alterId": 0,"email": "Trial-VM171"
+### tesss3 2029-05-28
+},{"id": "dd5ec6a2-88e0-4ffe-91b7-a512909919cc","alterId": 0,"email": "tesss3"
+### tesss2 2029-05-28
+},{"id": "fe046bd1-e348-42e8-b5b6-c9c73c62fd16","alterId": 0,"email": "tesss2"
+### tesss 2026-09-02
+},{"id": "ec0ad57c-4dfb-4245-9fe2-b03fb3efb315","alterId": 0,"email": "tesss"
+### Trial-VM483 2026-09-02
+},{"id": "4ed94989-c275-4375-a410-85c94fe95114","alterId": 0,"email": "Trial-VM483"
 ### cbotest1 2029-05-28
 },{"id": "f1b1cf2a-7b78-48fd-b45b-7cf0e7cd1d8f","alterId": 0,"email": "cbotest1"
           }
@@ -691,7 +1103,7 @@
       "streamSettings": {
         "network": "httpupgrade",
           "httpupgradeSettings": {
-            "path": "/httpupgrade",
+            "path": "/n-hup-vmess",
             "host": "wd3p.scbackend.my.id"
           },
           "security": "tls",
@@ -711,7 +1123,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10041,
       "protocol": "vmess",
       "settings": {
@@ -720,6 +1132,28 @@
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "alterId": 0
 #vmesshttpupgrade-none
+### Trial-VM741 2026-09-02
+},{"id": "3072b3f8-0f94-48e5-8259-958c9dfc2aac","alterId": 0,"email": "Trial-VM741"
+### cbfull1 2029-05-28
+},{"id": "d848404d-e990-460d-9ec1-af6557034fbc","alterId": 0,"email": "cbfull1"
+### Trial-VM356 2026-09-02
+},{"id": "e18830a5-7091-4596-af25-834e0e8f66d6","alterId": 0,"email": "Trial-VM356"
+### tvm9 2029-05-28
+},{"id": "a70971e3-4cc8-4254-a4d9-e16b2bfa8f64","alterId": 0,"email": "tvm9"
+### Trial-VM835 2026-09-02
+},{"id": "6f2518d8-1584-48cb-b050-b583332a7a8b","alterId": 0,"email": "Trial-VM835"
+### Trial-VM112 2026-09-02
+},{"id": "3a7d6ae1-dc2c-4696-87c6-8c9c11c582a4","alterId": 0,"email": "Trial-VM112"
+### Trial-VM171 2026-09-02
+},{"id": "c2481ce3-17d6-422a-b944-eef17a6443b5","alterId": 0,"email": "Trial-VM171"
+### tesss3 2029-05-28
+},{"id": "dd5ec6a2-88e0-4ffe-91b7-a512909919cc","alterId": 0,"email": "tesss3"
+### tesss2 2029-05-28
+},{"id": "fe046bd1-e348-42e8-b5b6-c9c73c62fd16","alterId": 0,"email": "tesss2"
+### tesss 2026-09-02
+},{"id": "ec0ad57c-4dfb-4245-9fe2-b03fb3efb315","alterId": 0,"email": "tesss"
+### Trial-VM483 2026-09-02
+},{"id": "4ed94989-c275-4375-a410-85c94fe95114","alterId": 0,"email": "Trial-VM483"
 ### cbotest1 2029-05-28
 },{"id": "f1b1cf2a-7b78-48fd-b45b-7cf0e7cd1d8f","alterId": 0,"email": "cbotest1"
           }
@@ -740,7 +1174,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10042,
       "protocol": "vmess",
       "settings": {
@@ -749,6 +1183,28 @@
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "alterId": 0
 #vmessxhttp-tls
+### Trial-VM741 2026-09-02
+},{"id": "3072b3f8-0f94-48e5-8259-958c9dfc2aac","alterId": 0,"email": "Trial-VM741"
+### cbfull1 2029-05-28
+},{"id": "d848404d-e990-460d-9ec1-af6557034fbc","alterId": 0,"email": "cbfull1"
+### Trial-VM356 2026-09-02
+},{"id": "e18830a5-7091-4596-af25-834e0e8f66d6","alterId": 0,"email": "Trial-VM356"
+### tvm9 2029-05-28
+},{"id": "a70971e3-4cc8-4254-a4d9-e16b2bfa8f64","alterId": 0,"email": "tvm9"
+### Trial-VM835 2026-09-02
+},{"id": "6f2518d8-1584-48cb-b050-b583332a7a8b","alterId": 0,"email": "Trial-VM835"
+### Trial-VM112 2026-09-02
+},{"id": "3a7d6ae1-dc2c-4696-87c6-8c9c11c582a4","alterId": 0,"email": "Trial-VM112"
+### Trial-VM171 2026-09-02
+},{"id": "c2481ce3-17d6-422a-b944-eef17a6443b5","alterId": 0,"email": "Trial-VM171"
+### tesss3 2029-05-28
+},{"id": "dd5ec6a2-88e0-4ffe-91b7-a512909919cc","alterId": 0,"email": "tesss3"
+### tesss2 2029-05-28
+},{"id": "fe046bd1-e348-42e8-b5b6-c9c73c62fd16","alterId": 0,"email": "tesss2"
+### tesss 2026-09-02
+},{"id": "ec0ad57c-4dfb-4245-9fe2-b03fb3efb315","alterId": 0,"email": "tesss"
+### Trial-VM483 2026-09-02
+},{"id": "4ed94989-c275-4375-a410-85c94fe95114","alterId": 0,"email": "Trial-VM483"
 ### cbotest1 2029-05-28
 },{"id": "f1b1cf2a-7b78-48fd-b45b-7cf0e7cd1d8f","alterId": 0,"email": "cbotest1"
           }
@@ -758,7 +1214,7 @@
       "streamSettings": {
         "network": "xhttp",
           "xhttpSettings": {
-            "path": "/xhttp",
+            "path": "/n-xh-vmess",
             "host": "wd3p.scbackend.my.id"
           },
           "security": "tls",
@@ -778,7 +1234,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10043,
       "protocol": "vmess",
       "settings": {
@@ -787,6 +1243,28 @@
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "alterId": 0
 #vmessxhttp-none
+### Trial-VM741 2026-09-02
+},{"id": "3072b3f8-0f94-48e5-8259-958c9dfc2aac","alterId": 0,"email": "Trial-VM741"
+### cbfull1 2029-05-28
+},{"id": "d848404d-e990-460d-9ec1-af6557034fbc","alterId": 0,"email": "cbfull1"
+### Trial-VM356 2026-09-02
+},{"id": "e18830a5-7091-4596-af25-834e0e8f66d6","alterId": 0,"email": "Trial-VM356"
+### tvm9 2029-05-28
+},{"id": "a70971e3-4cc8-4254-a4d9-e16b2bfa8f64","alterId": 0,"email": "tvm9"
+### Trial-VM835 2026-09-02
+},{"id": "6f2518d8-1584-48cb-b050-b583332a7a8b","alterId": 0,"email": "Trial-VM835"
+### Trial-VM112 2026-09-02
+},{"id": "3a7d6ae1-dc2c-4696-87c6-8c9c11c582a4","alterId": 0,"email": "Trial-VM112"
+### Trial-VM171 2026-09-02
+},{"id": "c2481ce3-17d6-422a-b944-eef17a6443b5","alterId": 0,"email": "Trial-VM171"
+### tesss3 2029-05-28
+},{"id": "dd5ec6a2-88e0-4ffe-91b7-a512909919cc","alterId": 0,"email": "tesss3"
+### tesss2 2029-05-28
+},{"id": "fe046bd1-e348-42e8-b5b6-c9c73c62fd16","alterId": 0,"email": "tesss2"
+### tesss 2026-09-02
+},{"id": "ec0ad57c-4dfb-4245-9fe2-b03fb3efb315","alterId": 0,"email": "tesss"
+### Trial-VM483 2026-09-02
+},{"id": "4ed94989-c275-4375-a410-85c94fe95114","alterId": 0,"email": "Trial-VM483"
 ### cbotest1 2029-05-28
 },{"id": "f1b1cf2a-7b78-48fd-b45b-7cf0e7cd1d8f","alterId": 0,"email": "cbotest1"
           }
@@ -807,7 +1285,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10044,
       "protocol": "vmess",
       "settings": {
@@ -816,6 +1294,28 @@
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "alterId": 0
 #vmessquic-tls
+### Trial-VM741 2026-09-02
+},{"id": "3072b3f8-0f94-48e5-8259-958c9dfc2aac","alterId": 0,"email": "Trial-VM741"
+### cbfull1 2029-05-28
+},{"id": "d848404d-e990-460d-9ec1-af6557034fbc","alterId": 0,"email": "cbfull1"
+### Trial-VM356 2026-09-02
+},{"id": "e18830a5-7091-4596-af25-834e0e8f66d6","alterId": 0,"email": "Trial-VM356"
+### tvm9 2029-05-28
+},{"id": "a70971e3-4cc8-4254-a4d9-e16b2bfa8f64","alterId": 0,"email": "tvm9"
+### Trial-VM835 2026-09-02
+},{"id": "6f2518d8-1584-48cb-b050-b583332a7a8b","alterId": 0,"email": "Trial-VM835"
+### Trial-VM112 2026-09-02
+},{"id": "3a7d6ae1-dc2c-4696-87c6-8c9c11c582a4","alterId": 0,"email": "Trial-VM112"
+### Trial-VM171 2026-09-02
+},{"id": "c2481ce3-17d6-422a-b944-eef17a6443b5","alterId": 0,"email": "Trial-VM171"
+### tesss3 2029-05-28
+},{"id": "dd5ec6a2-88e0-4ffe-91b7-a512909919cc","alterId": 0,"email": "tesss3"
+### tesss2 2029-05-28
+},{"id": "fe046bd1-e348-42e8-b5b6-c9c73c62fd16","alterId": 0,"email": "tesss2"
+### tesss 2026-09-02
+},{"id": "ec0ad57c-4dfb-4245-9fe2-b03fb3efb315","alterId": 0,"email": "tesss"
+### Trial-VM483 2026-09-02
+},{"id": "4ed94989-c275-4375-a410-85c94fe95114","alterId": 0,"email": "Trial-VM483"
 ### cbotest1 2029-05-28
 },{"id": "f1b1cf2a-7b78-48fd-b45b-7cf0e7cd1d8f","alterId": 0,"email": "cbotest1"
           }
@@ -850,7 +1350,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10045,
       "protocol": "vmess",
       "settings": {
@@ -859,6 +1359,28 @@
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "alterId": 0
 #vmessquic-none
+### Trial-VM741 2026-09-02
+},{"id": "3072b3f8-0f94-48e5-8259-958c9dfc2aac","alterId": 0,"email": "Trial-VM741"
+### cbfull1 2029-05-28
+},{"id": "d848404d-e990-460d-9ec1-af6557034fbc","alterId": 0,"email": "cbfull1"
+### Trial-VM356 2026-09-02
+},{"id": "e18830a5-7091-4596-af25-834e0e8f66d6","alterId": 0,"email": "Trial-VM356"
+### tvm9 2029-05-28
+},{"id": "a70971e3-4cc8-4254-a4d9-e16b2bfa8f64","alterId": 0,"email": "tvm9"
+### Trial-VM835 2026-09-02
+},{"id": "6f2518d8-1584-48cb-b050-b583332a7a8b","alterId": 0,"email": "Trial-VM835"
+### Trial-VM112 2026-09-02
+},{"id": "3a7d6ae1-dc2c-4696-87c6-8c9c11c582a4","alterId": 0,"email": "Trial-VM112"
+### Trial-VM171 2026-09-02
+},{"id": "c2481ce3-17d6-422a-b944-eef17a6443b5","alterId": 0,"email": "Trial-VM171"
+### tesss3 2029-05-28
+},{"id": "dd5ec6a2-88e0-4ffe-91b7-a512909919cc","alterId": 0,"email": "tesss3"
+### tesss2 2029-05-28
+},{"id": "fe046bd1-e348-42e8-b5b6-c9c73c62fd16","alterId": 0,"email": "tesss2"
+### tesss 2026-09-02
+},{"id": "ec0ad57c-4dfb-4245-9fe2-b03fb3efb315","alterId": 0,"email": "tesss"
+### Trial-VM483 2026-09-02
+},{"id": "4ed94989-c275-4375-a410-85c94fe95114","alterId": 0,"email": "Trial-VM483"
 ### cbotest1 2029-05-28
 },{"id": "f1b1cf2a-7b78-48fd-b45b-7cf0e7cd1d8f","alterId": 0,"email": "cbotest1"
           }
@@ -884,7 +1406,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10046,
       "protocol": "vmess",
       "settings": {
@@ -893,6 +1415,28 @@
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "alterId": 0
 #vmessdomainsocket-none
+### Trial-VM741 2026-09-02
+},{"id": "3072b3f8-0f94-48e5-8259-958c9dfc2aac","alterId": 0,"email": "Trial-VM741"
+### cbfull1 2029-05-28
+},{"id": "d848404d-e990-460d-9ec1-af6557034fbc","alterId": 0,"email": "cbfull1"
+### Trial-VM356 2026-09-02
+},{"id": "e18830a5-7091-4596-af25-834e0e8f66d6","alterId": 0,"email": "Trial-VM356"
+### tvm9 2029-05-28
+},{"id": "a70971e3-4cc8-4254-a4d9-e16b2bfa8f64","alterId": 0,"email": "tvm9"
+### Trial-VM835 2026-09-02
+},{"id": "6f2518d8-1584-48cb-b050-b583332a7a8b","alterId": 0,"email": "Trial-VM835"
+### Trial-VM112 2026-09-02
+},{"id": "3a7d6ae1-dc2c-4696-87c6-8c9c11c582a4","alterId": 0,"email": "Trial-VM112"
+### Trial-VM171 2026-09-02
+},{"id": "c2481ce3-17d6-422a-b944-eef17a6443b5","alterId": 0,"email": "Trial-VM171"
+### tesss3 2029-05-28
+},{"id": "dd5ec6a2-88e0-4ffe-91b7-a512909919cc","alterId": 0,"email": "tesss3"
+### tesss2 2029-05-28
+},{"id": "fe046bd1-e348-42e8-b5b6-c9c73c62fd16","alterId": 0,"email": "tesss2"
+### tesss 2026-09-02
+},{"id": "ec0ad57c-4dfb-4245-9fe2-b03fb3efb315","alterId": 0,"email": "tesss"
+### Trial-VM483 2026-09-02
+},{"id": "4ed94989-c275-4375-a410-85c94fe95114","alterId": 0,"email": "Trial-VM483"
 ### cbotest1 2029-05-28
 },{"id": "f1b1cf2a-7b78-48fd-b45b-7cf0e7cd1d8f","alterId": 0,"email": "cbotest1"
           }
@@ -914,7 +1458,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10047,
       "protocol": "vless",
       "settings": {
@@ -923,6 +1467,32 @@
 {
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vlesstcp-tls
+#& Trial-VM007 2026-09-02
+},{"id": "45276c9b-df48-4d9b-8334-071cd454f5ca","email": "Trial-VM007"
+#& Trial-VM587 2026-09-02
+},{"id": "81437c12-95e4-44df-b177-5bc4852974e1","email": "Trial-VM587"
+#& cbfull2 2029-05-28
+},{"id": "9384588f-c0b8-4295-a2c6-e8837fde5f1f","email" : "cbfull2"
+#& Trial-VM754 2026-09-02
+},{"id": "774d3799-ef91-4fb8-b3e1-9a7e13f367b3","email": "Trial-VM754"
+#& Trial-VM317 2026-09-02
+},{"id": "42191739-9711-449f-aac5-51756bba09fc","email": "Trial-VM317"
+#& tvl7 2029-05-28
+},{"id": "1a93ba65-20d4-437d-b2f3-826928c01948","email" : "tvl7"
+#& tvl6 2029-05-28
+},{"id": "9e4d91e4-28e8-420f-b597-8e101f677945","email" : "tvl6"
+#& tvl5 2029-05-28
+},{"id": "bd5e4f6a-63d9-4806-b394-086c8d22d7a7","email" : "tvl5"
+#& tvl4 2029-05-28
+},{"id": "4c12d721-31a6-4655-8a93-74b2a8f37b45","email" : "tvl4"
+#& tvl3 2029-05-28
+},{"id": "b7c5be4a-fb16-45ab-9db7-1f3b0c7d14ad","email" : "tvl3"
+#& tvl2 2029-05-28
+},{"id": "0d84b0d0-476b-4eb9-bf42-248063deae5d","email" : "tvl2"
+#& tvl1 2029-05-28
+},{"id": "6c293755-82aa-48bd-8e25-05d9b02b2f0d","email" : "tvl1"
+#& Trial-VM451 2026-09-02
+},{"id": "e5d7b79a-6d7c-4f45-80b8-db11d3b45833","email": "Trial-VM451"
 #& 1000 2026-09-02
 },{"id": "d021ef1b-38de-4eff-b712-c11898653126","email" : "1000"
 #& cbvlstest 2029-05-28
@@ -952,7 +1522,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10048,
       "protocol": "vless",
       "settings": {
@@ -961,10 +1531,36 @@
 {
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vlesstcp-reality
+#& Trial-VM007 2026-09-02
+},{"id": "45276c9b-df48-4d9b-8334-071cd454f5ca","email": "Trial-VM007","flow": "xtls-rprx-vision"
+#& Trial-VM587 2026-09-02
+},{"id": "81437c12-95e4-44df-b177-5bc4852974e1","email": "Trial-VM587","flow": "xtls-rprx-vision"
+#& cbfull2 2029-05-28
+},{"id": "9384588f-c0b8-4295-a2c6-e8837fde5f1f","email" : "cbfull2","flow": "xtls-rprx-vision"
+#& Trial-VM754 2026-09-02
+},{"id": "774d3799-ef91-4fb8-b3e1-9a7e13f367b3","email" : "Trial-VM754","flow": "xtls-rprx-vision"
+#& Trial-VM317 2026-09-02
+},{"id": "42191739-9711-449f-aac5-51756bba09fc","email" : "Trial-VM317","flow": "xtls-rprx-vision"
+#& tvl7 2029-05-28
+},{"id": "1a93ba65-20d4-437d-b2f3-826928c01948","email" : "tvl7","flow": "xtls-rprx-vision"
+#& tvl6 2029-05-28
+},{"id": "9e4d91e4-28e8-420f-b597-8e101f677945","email" : "tvl6","flow": "xtls-rprx-vision"
+#& tvl5 2029-05-28
+},{"id": "bd5e4f6a-63d9-4806-b394-086c8d22d7a7","email" : "tvl5","flow": "xtls-rprx-vision"
+#& tvl4 2029-05-28
+},{"id": "4c12d721-31a6-4655-8a93-74b2a8f37b45","email" : "tvl4","flow": "xtls-rprx-vision"
+#& tvl3 2029-05-28
+},{"id": "b7c5be4a-fb16-45ab-9db7-1f3b0c7d14ad","email" : "tvl3","flow": "xtls-rprx-vision"
+#& tvl2 2029-05-28
+},{"id": "0d84b0d0-476b-4eb9-bf42-248063deae5d","email" : "tvl2","flow": "xtls-rprx-vision"
+#& tvl1 2029-05-28
+},{"id": "6c293755-82aa-48bd-8e25-05d9b02b2f0d","email" : "tvl1","flow": "xtls-rprx-vision"
+#& Trial-VM451 2026-09-02
+},{"id": "e5d7b79a-6d7c-4f45-80b8-db11d3b45833","email" : "Trial-VM451","flow": "xtls-rprx-vision"
 #& 1000 2026-09-02
-},{"id": "d021ef1b-38de-4eff-b712-c11898653126","email" : "1000"
+},{"id": "d021ef1b-38de-4eff-b712-c11898653126","email" : "1000","flow": "xtls-rprx-vision"
 #& cbvlstest 2029-05-28
-},{"id": "e984c205-0684-484b-875e-a6df5aea105c","email" : "cbvlstest"
+},{"id": "e984c205-0684-484b-875e-a6df5aea105c","email" : "cbvlstest","flow": "xtls-rprx-vision"
           }
         ],
         "fallbacks": []
@@ -989,7 +1585,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10049,
       "protocol": "vless",
       "settings": {
@@ -998,6 +1594,32 @@
 {
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vlesstcp-none
+#& Trial-VM007 2026-09-02
+},{"id": "45276c9b-df48-4d9b-8334-071cd454f5ca","email": "Trial-VM007"
+#& Trial-VM587 2026-09-02
+},{"id": "81437c12-95e4-44df-b177-5bc4852974e1","email": "Trial-VM587"
+#& cbfull2 2029-05-28
+},{"id": "9384588f-c0b8-4295-a2c6-e8837fde5f1f","email" : "cbfull2"
+#& Trial-VM754 2026-09-02
+},{"id": "774d3799-ef91-4fb8-b3e1-9a7e13f367b3","email": "Trial-VM754"
+#& Trial-VM317 2026-09-02
+},{"id": "42191739-9711-449f-aac5-51756bba09fc","email": "Trial-VM317"
+#& tvl7 2029-05-28
+},{"id": "1a93ba65-20d4-437d-b2f3-826928c01948","email" : "tvl7"
+#& tvl6 2029-05-28
+},{"id": "9e4d91e4-28e8-420f-b597-8e101f677945","email" : "tvl6"
+#& tvl5 2029-05-28
+},{"id": "bd5e4f6a-63d9-4806-b394-086c8d22d7a7","email" : "tvl5"
+#& tvl4 2029-05-28
+},{"id": "4c12d721-31a6-4655-8a93-74b2a8f37b45","email" : "tvl4"
+#& tvl3 2029-05-28
+},{"id": "b7c5be4a-fb16-45ab-9db7-1f3b0c7d14ad","email" : "tvl3"
+#& tvl2 2029-05-28
+},{"id": "0d84b0d0-476b-4eb9-bf42-248063deae5d","email" : "tvl2"
+#& tvl1 2029-05-28
+},{"id": "6c293755-82aa-48bd-8e25-05d9b02b2f0d","email" : "tvl1"
+#& Trial-VM451 2026-09-02
+},{"id": "e5d7b79a-6d7c-4f45-80b8-db11d3b45833","email": "Trial-VM451"
 #& 1000 2026-09-02
 },{"id": "d021ef1b-38de-4eff-b712-c11898653126","email" : "1000"
 #& cbvlstest 2029-05-28
@@ -1018,7 +1640,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10050,
       "protocol": "vless",
       "settings": {
@@ -1027,6 +1649,32 @@
 {
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vlesskcp-tls
+#& Trial-VM007 2026-09-02
+},{"id": "45276c9b-df48-4d9b-8334-071cd454f5ca","email": "Trial-VM007"
+#& Trial-VM587 2026-09-02
+},{"id": "81437c12-95e4-44df-b177-5bc4852974e1","email": "Trial-VM587"
+#& cbfull2 2029-05-28
+},{"id": "9384588f-c0b8-4295-a2c6-e8837fde5f1f","email" : "cbfull2"
+#& Trial-VM754 2026-09-02
+},{"id": "774d3799-ef91-4fb8-b3e1-9a7e13f367b3","email": "Trial-VM754"
+#& Trial-VM317 2026-09-02
+},{"id": "42191739-9711-449f-aac5-51756bba09fc","email": "Trial-VM317"
+#& tvl7 2029-05-28
+},{"id": "1a93ba65-20d4-437d-b2f3-826928c01948","email" : "tvl7"
+#& tvl6 2029-05-28
+},{"id": "9e4d91e4-28e8-420f-b597-8e101f677945","email" : "tvl6"
+#& tvl5 2029-05-28
+},{"id": "bd5e4f6a-63d9-4806-b394-086c8d22d7a7","email" : "tvl5"
+#& tvl4 2029-05-28
+},{"id": "4c12d721-31a6-4655-8a93-74b2a8f37b45","email" : "tvl4"
+#& tvl3 2029-05-28
+},{"id": "b7c5be4a-fb16-45ab-9db7-1f3b0c7d14ad","email" : "tvl3"
+#& tvl2 2029-05-28
+},{"id": "0d84b0d0-476b-4eb9-bf42-248063deae5d","email" : "tvl2"
+#& tvl1 2029-05-28
+},{"id": "6c293755-82aa-48bd-8e25-05d9b02b2f0d","email" : "tvl1"
+#& Trial-VM451 2026-09-02
+},{"id": "e5d7b79a-6d7c-4f45-80b8-db11d3b45833","email": "Trial-VM451"
 #& 1000 2026-09-02
 },{"id": "d021ef1b-38de-4eff-b712-c11898653126","email" : "1000"
 #& cbvlstest 2029-05-28
@@ -1063,7 +1711,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10051,
       "protocol": "vless",
       "settings": {
@@ -1072,6 +1720,32 @@
 {
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vlesskcp-none
+#& Trial-VM007 2026-09-02
+},{"id": "45276c9b-df48-4d9b-8334-071cd454f5ca","email": "Trial-VM007"
+#& Trial-VM587 2026-09-02
+},{"id": "81437c12-95e4-44df-b177-5bc4852974e1","email": "Trial-VM587"
+#& cbfull2 2029-05-28
+},{"id": "9384588f-c0b8-4295-a2c6-e8837fde5f1f","email" : "cbfull2"
+#& Trial-VM754 2026-09-02
+},{"id": "774d3799-ef91-4fb8-b3e1-9a7e13f367b3","email": "Trial-VM754"
+#& Trial-VM317 2026-09-02
+},{"id": "42191739-9711-449f-aac5-51756bba09fc","email": "Trial-VM317"
+#& tvl7 2029-05-28
+},{"id": "1a93ba65-20d4-437d-b2f3-826928c01948","email" : "tvl7"
+#& tvl6 2029-05-28
+},{"id": "9e4d91e4-28e8-420f-b597-8e101f677945","email" : "tvl6"
+#& tvl5 2029-05-28
+},{"id": "bd5e4f6a-63d9-4806-b394-086c8d22d7a7","email" : "tvl5"
+#& tvl4 2029-05-28
+},{"id": "4c12d721-31a6-4655-8a93-74b2a8f37b45","email" : "tvl4"
+#& tvl3 2029-05-28
+},{"id": "b7c5be4a-fb16-45ab-9db7-1f3b0c7d14ad","email" : "tvl3"
+#& tvl2 2029-05-28
+},{"id": "0d84b0d0-476b-4eb9-bf42-248063deae5d","email" : "tvl2"
+#& tvl1 2029-05-28
+},{"id": "6c293755-82aa-48bd-8e25-05d9b02b2f0d","email" : "tvl1"
+#& Trial-VM451 2026-09-02
+},{"id": "e5d7b79a-6d7c-4f45-80b8-db11d3b45833","email": "Trial-VM451"
 #& 1000 2026-09-02
 },{"id": "d021ef1b-38de-4eff-b712-c11898653126","email" : "1000"
 #& cbvlstest 2029-05-28
@@ -1099,7 +1773,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10052,
       "protocol": "vless",
       "settings": {
@@ -1108,6 +1782,32 @@
 {
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vlessws-tls
+#& Trial-VM007 2026-09-02
+},{"id": "45276c9b-df48-4d9b-8334-071cd454f5ca","email": "Trial-VM007"
+#& Trial-VM587 2026-09-02
+},{"id": "81437c12-95e4-44df-b177-5bc4852974e1","email": "Trial-VM587"
+#& cbfull2 2029-05-28
+},{"id": "9384588f-c0b8-4295-a2c6-e8837fde5f1f","email" : "cbfull2"
+#& Trial-VM754 2026-09-02
+},{"id": "774d3799-ef91-4fb8-b3e1-9a7e13f367b3","email": "Trial-VM754"
+#& Trial-VM317 2026-09-02
+},{"id": "42191739-9711-449f-aac5-51756bba09fc","email": "Trial-VM317"
+#& tvl7 2029-05-28
+},{"id": "1a93ba65-20d4-437d-b2f3-826928c01948","email" : "tvl7"
+#& tvl6 2029-05-28
+},{"id": "9e4d91e4-28e8-420f-b597-8e101f677945","email" : "tvl6"
+#& tvl5 2029-05-28
+},{"id": "bd5e4f6a-63d9-4806-b394-086c8d22d7a7","email" : "tvl5"
+#& tvl4 2029-05-28
+},{"id": "4c12d721-31a6-4655-8a93-74b2a8f37b45","email" : "tvl4"
+#& tvl3 2029-05-28
+},{"id": "b7c5be4a-fb16-45ab-9db7-1f3b0c7d14ad","email" : "tvl3"
+#& tvl2 2029-05-28
+},{"id": "0d84b0d0-476b-4eb9-bf42-248063deae5d","email" : "tvl2"
+#& tvl1 2029-05-28
+},{"id": "6c293755-82aa-48bd-8e25-05d9b02b2f0d","email" : "tvl1"
+#& Trial-VM451 2026-09-02
+},{"id": "e5d7b79a-6d7c-4f45-80b8-db11d3b45833","email": "Trial-VM451"
 #& 1000 2026-09-02
 },{"id": "d021ef1b-38de-4eff-b712-c11898653126","email" : "1000"
 #& cbvlstest 2029-05-28
@@ -1119,7 +1819,7 @@
       "streamSettings": {
         "network": "ws",
           "wsSettings": {
-            "path": "/ws"
+            "path": "/n-ws-vless"
           },
           "security": "tls",
           "tlsSettings": {
@@ -1138,7 +1838,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10053,
       "protocol": "vless",
       "settings": {
@@ -1147,6 +1847,32 @@
 {
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vlessws-none
+#& Trial-VM007 2026-09-02
+},{"id": "45276c9b-df48-4d9b-8334-071cd454f5ca","email": "Trial-VM007"
+#& Trial-VM587 2026-09-02
+},{"id": "81437c12-95e4-44df-b177-5bc4852974e1","email": "Trial-VM587"
+#& cbfull2 2029-05-28
+},{"id": "9384588f-c0b8-4295-a2c6-e8837fde5f1f","email" : "cbfull2"
+#& Trial-VM754 2026-09-02
+},{"id": "774d3799-ef91-4fb8-b3e1-9a7e13f367b3","email": "Trial-VM754"
+#& Trial-VM317 2026-09-02
+},{"id": "42191739-9711-449f-aac5-51756bba09fc","email": "Trial-VM317"
+#& tvl7 2029-05-28
+},{"id": "1a93ba65-20d4-437d-b2f3-826928c01948","email" : "tvl7"
+#& tvl6 2029-05-28
+},{"id": "9e4d91e4-28e8-420f-b597-8e101f677945","email" : "tvl6"
+#& tvl5 2029-05-28
+},{"id": "bd5e4f6a-63d9-4806-b394-086c8d22d7a7","email" : "tvl5"
+#& tvl4 2029-05-28
+},{"id": "4c12d721-31a6-4655-8a93-74b2a8f37b45","email" : "tvl4"
+#& tvl3 2029-05-28
+},{"id": "b7c5be4a-fb16-45ab-9db7-1f3b0c7d14ad","email" : "tvl3"
+#& tvl2 2029-05-28
+},{"id": "0d84b0d0-476b-4eb9-bf42-248063deae5d","email" : "tvl2"
+#& tvl1 2029-05-28
+},{"id": "6c293755-82aa-48bd-8e25-05d9b02b2f0d","email" : "tvl1"
+#& Trial-VM451 2026-09-02
+},{"id": "e5d7b79a-6d7c-4f45-80b8-db11d3b45833","email": "Trial-VM451"
 #& 1000 2026-09-02
 },{"id": "d021ef1b-38de-4eff-b712-c11898653126","email" : "1000"
 #& cbvlstest 2029-05-28
@@ -1168,7 +1894,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10054,
       "protocol": "vless",
       "settings": {
@@ -1177,6 +1903,32 @@
 {
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vlesshttp-tls
+#& Trial-VM007 2026-09-02
+},{"id": "45276c9b-df48-4d9b-8334-071cd454f5ca","email": "Trial-VM007"
+#& Trial-VM587 2026-09-02
+},{"id": "81437c12-95e4-44df-b177-5bc4852974e1","email": "Trial-VM587"
+#& cbfull2 2029-05-28
+},{"id": "9384588f-c0b8-4295-a2c6-e8837fde5f1f","email" : "cbfull2"
+#& Trial-VM754 2026-09-02
+},{"id": "774d3799-ef91-4fb8-b3e1-9a7e13f367b3","email": "Trial-VM754"
+#& Trial-VM317 2026-09-02
+},{"id": "42191739-9711-449f-aac5-51756bba09fc","email": "Trial-VM317"
+#& tvl7 2029-05-28
+},{"id": "1a93ba65-20d4-437d-b2f3-826928c01948","email" : "tvl7"
+#& tvl6 2029-05-28
+},{"id": "9e4d91e4-28e8-420f-b597-8e101f677945","email" : "tvl6"
+#& tvl5 2029-05-28
+},{"id": "bd5e4f6a-63d9-4806-b394-086c8d22d7a7","email" : "tvl5"
+#& tvl4 2029-05-28
+},{"id": "4c12d721-31a6-4655-8a93-74b2a8f37b45","email" : "tvl4"
+#& tvl3 2029-05-28
+},{"id": "b7c5be4a-fb16-45ab-9db7-1f3b0c7d14ad","email" : "tvl3"
+#& tvl2 2029-05-28
+},{"id": "0d84b0d0-476b-4eb9-bf42-248063deae5d","email" : "tvl2"
+#& tvl1 2029-05-28
+},{"id": "6c293755-82aa-48bd-8e25-05d9b02b2f0d","email" : "tvl1"
+#& Trial-VM451 2026-09-02
+},{"id": "e5d7b79a-6d7c-4f45-80b8-db11d3b45833","email": "Trial-VM451"
 #& 1000 2026-09-02
 },{"id": "d021ef1b-38de-4eff-b712-c11898653126","email" : "1000"
 #& cbvlstest 2029-05-28
@@ -1212,7 +1964,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10055,
       "protocol": "vless",
       "settings": {
@@ -1221,6 +1973,32 @@
 {
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vlesshttp-none
+#& Trial-VM007 2026-09-02
+},{"id": "45276c9b-df48-4d9b-8334-071cd454f5ca","email": "Trial-VM007"
+#& Trial-VM587 2026-09-02
+},{"id": "81437c12-95e4-44df-b177-5bc4852974e1","email": "Trial-VM587"
+#& cbfull2 2029-05-28
+},{"id": "9384588f-c0b8-4295-a2c6-e8837fde5f1f","email" : "cbfull2"
+#& Trial-VM754 2026-09-02
+},{"id": "774d3799-ef91-4fb8-b3e1-9a7e13f367b3","email": "Trial-VM754"
+#& Trial-VM317 2026-09-02
+},{"id": "42191739-9711-449f-aac5-51756bba09fc","email": "Trial-VM317"
+#& tvl7 2029-05-28
+},{"id": "1a93ba65-20d4-437d-b2f3-826928c01948","email" : "tvl7"
+#& tvl6 2029-05-28
+},{"id": "9e4d91e4-28e8-420f-b597-8e101f677945","email" : "tvl6"
+#& tvl5 2029-05-28
+},{"id": "bd5e4f6a-63d9-4806-b394-086c8d22d7a7","email" : "tvl5"
+#& tvl4 2029-05-28
+},{"id": "4c12d721-31a6-4655-8a93-74b2a8f37b45","email" : "tvl4"
+#& tvl3 2029-05-28
+},{"id": "b7c5be4a-fb16-45ab-9db7-1f3b0c7d14ad","email" : "tvl3"
+#& tvl2 2029-05-28
+},{"id": "0d84b0d0-476b-4eb9-bf42-248063deae5d","email" : "tvl2"
+#& tvl1 2029-05-28
+},{"id": "6c293755-82aa-48bd-8e25-05d9b02b2f0d","email" : "tvl1"
+#& Trial-VM451 2026-09-02
+},{"id": "e5d7b79a-6d7c-4f45-80b8-db11d3b45833","email": "Trial-VM451"
 #& 1000 2026-09-02
 },{"id": "d021ef1b-38de-4eff-b712-c11898653126","email" : "1000"
 #& cbvlstest 2029-05-28
@@ -1247,7 +2025,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10056,
       "protocol": "vless",
       "settings": {
@@ -1256,6 +2034,32 @@
 {
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vlessgrpc-tls
+#& Trial-VM007 2026-09-02
+},{"id": "45276c9b-df48-4d9b-8334-071cd454f5ca","email": "Trial-VM007"
+#& Trial-VM587 2026-09-02
+},{"id": "81437c12-95e4-44df-b177-5bc4852974e1","email": "Trial-VM587"
+#& cbfull2 2029-05-28
+},{"id": "9384588f-c0b8-4295-a2c6-e8837fde5f1f","email" : "cbfull2"
+#& Trial-VM754 2026-09-02
+},{"id": "774d3799-ef91-4fb8-b3e1-9a7e13f367b3","email": "Trial-VM754"
+#& Trial-VM317 2026-09-02
+},{"id": "42191739-9711-449f-aac5-51756bba09fc","email": "Trial-VM317"
+#& tvl7 2029-05-28
+},{"id": "1a93ba65-20d4-437d-b2f3-826928c01948","email" : "tvl7"
+#& tvl6 2029-05-28
+},{"id": "9e4d91e4-28e8-420f-b597-8e101f677945","email" : "tvl6"
+#& tvl5 2029-05-28
+},{"id": "bd5e4f6a-63d9-4806-b394-086c8d22d7a7","email" : "tvl5"
+#& tvl4 2029-05-28
+},{"id": "4c12d721-31a6-4655-8a93-74b2a8f37b45","email" : "tvl4"
+#& tvl3 2029-05-28
+},{"id": "b7c5be4a-fb16-45ab-9db7-1f3b0c7d14ad","email" : "tvl3"
+#& tvl2 2029-05-28
+},{"id": "0d84b0d0-476b-4eb9-bf42-248063deae5d","email" : "tvl2"
+#& tvl1 2029-05-28
+},{"id": "6c293755-82aa-48bd-8e25-05d9b02b2f0d","email" : "tvl1"
+#& Trial-VM451 2026-09-02
+},{"id": "e5d7b79a-6d7c-4f45-80b8-db11d3b45833","email": "Trial-VM451"
 #& 1000 2026-09-02
 },{"id": "d021ef1b-38de-4eff-b712-c11898653126","email" : "1000"
 #& cbvlstest 2029-05-28
@@ -1286,7 +2090,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10057,
       "protocol": "vless",
       "settings": {
@@ -1295,6 +2099,32 @@
 {
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vlessgrpc-reality
+#& Trial-VM007 2026-09-02
+},{"id": "45276c9b-df48-4d9b-8334-071cd454f5ca","email": "Trial-VM007"
+#& Trial-VM587 2026-09-02
+},{"id": "81437c12-95e4-44df-b177-5bc4852974e1","email": "Trial-VM587"
+#& cbfull2 2029-05-28
+},{"id": "9384588f-c0b8-4295-a2c6-e8837fde5f1f","email" : "cbfull2"
+#& Trial-VM754 2026-09-02
+},{"id": "774d3799-ef91-4fb8-b3e1-9a7e13f367b3","email": "Trial-VM754"
+#& Trial-VM317 2026-09-02
+},{"id": "42191739-9711-449f-aac5-51756bba09fc","email": "Trial-VM317"
+#& tvl7 2029-05-28
+},{"id": "1a93ba65-20d4-437d-b2f3-826928c01948","email" : "tvl7"
+#& tvl6 2029-05-28
+},{"id": "9e4d91e4-28e8-420f-b597-8e101f677945","email" : "tvl6"
+#& tvl5 2029-05-28
+},{"id": "bd5e4f6a-63d9-4806-b394-086c8d22d7a7","email" : "tvl5"
+#& tvl4 2029-05-28
+},{"id": "4c12d721-31a6-4655-8a93-74b2a8f37b45","email" : "tvl4"
+#& tvl3 2029-05-28
+},{"id": "b7c5be4a-fb16-45ab-9db7-1f3b0c7d14ad","email" : "tvl3"
+#& tvl2 2029-05-28
+},{"id": "0d84b0d0-476b-4eb9-bf42-248063deae5d","email" : "tvl2"
+#& tvl1 2029-05-28
+},{"id": "6c293755-82aa-48bd-8e25-05d9b02b2f0d","email" : "tvl1"
+#& Trial-VM451 2026-09-02
+},{"id": "e5d7b79a-6d7c-4f45-80b8-db11d3b45833","email": "Trial-VM451"
 #& 1000 2026-09-02
 },{"id": "d021ef1b-38de-4eff-b712-c11898653126","email" : "1000"
 #& cbvlstest 2029-05-28
@@ -1324,7 +2154,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10058,
       "protocol": "vless",
       "settings": {
@@ -1333,6 +2163,32 @@
 {
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vlessgrpc-none
+#& Trial-VM007 2026-09-02
+},{"id": "45276c9b-df48-4d9b-8334-071cd454f5ca","email": "Trial-VM007"
+#& Trial-VM587 2026-09-02
+},{"id": "81437c12-95e4-44df-b177-5bc4852974e1","email": "Trial-VM587"
+#& cbfull2 2029-05-28
+},{"id": "9384588f-c0b8-4295-a2c6-e8837fde5f1f","email" : "cbfull2"
+#& Trial-VM754 2026-09-02
+},{"id": "774d3799-ef91-4fb8-b3e1-9a7e13f367b3","email": "Trial-VM754"
+#& Trial-VM317 2026-09-02
+},{"id": "42191739-9711-449f-aac5-51756bba09fc","email": "Trial-VM317"
+#& tvl7 2029-05-28
+},{"id": "1a93ba65-20d4-437d-b2f3-826928c01948","email" : "tvl7"
+#& tvl6 2029-05-28
+},{"id": "9e4d91e4-28e8-420f-b597-8e101f677945","email" : "tvl6"
+#& tvl5 2029-05-28
+},{"id": "bd5e4f6a-63d9-4806-b394-086c8d22d7a7","email" : "tvl5"
+#& tvl4 2029-05-28
+},{"id": "4c12d721-31a6-4655-8a93-74b2a8f37b45","email" : "tvl4"
+#& tvl3 2029-05-28
+},{"id": "b7c5be4a-fb16-45ab-9db7-1f3b0c7d14ad","email" : "tvl3"
+#& tvl2 2029-05-28
+},{"id": "0d84b0d0-476b-4eb9-bf42-248063deae5d","email" : "tvl2"
+#& tvl1 2029-05-28
+},{"id": "6c293755-82aa-48bd-8e25-05d9b02b2f0d","email" : "tvl1"
+#& Trial-VM451 2026-09-02
+},{"id": "e5d7b79a-6d7c-4f45-80b8-db11d3b45833","email": "Trial-VM451"
 #& 1000 2026-09-02
 },{"id": "d021ef1b-38de-4eff-b712-c11898653126","email" : "1000"
 #& cbvlstest 2029-05-28
@@ -1354,7 +2210,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10059,
       "protocol": "vless",
       "settings": {
@@ -1363,6 +2219,32 @@
 {
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vlesshttpupgrade-tls
+#& Trial-VM007 2026-09-02
+},{"id": "45276c9b-df48-4d9b-8334-071cd454f5ca","email": "Trial-VM007"
+#& Trial-VM587 2026-09-02
+},{"id": "81437c12-95e4-44df-b177-5bc4852974e1","email": "Trial-VM587"
+#& cbfull2 2029-05-28
+},{"id": "9384588f-c0b8-4295-a2c6-e8837fde5f1f","email" : "cbfull2"
+#& Trial-VM754 2026-09-02
+},{"id": "774d3799-ef91-4fb8-b3e1-9a7e13f367b3","email": "Trial-VM754"
+#& Trial-VM317 2026-09-02
+},{"id": "42191739-9711-449f-aac5-51756bba09fc","email": "Trial-VM317"
+#& tvl7 2029-05-28
+},{"id": "1a93ba65-20d4-437d-b2f3-826928c01948","email" : "tvl7"
+#& tvl6 2029-05-28
+},{"id": "9e4d91e4-28e8-420f-b597-8e101f677945","email" : "tvl6"
+#& tvl5 2029-05-28
+},{"id": "bd5e4f6a-63d9-4806-b394-086c8d22d7a7","email" : "tvl5"
+#& tvl4 2029-05-28
+},{"id": "4c12d721-31a6-4655-8a93-74b2a8f37b45","email" : "tvl4"
+#& tvl3 2029-05-28
+},{"id": "b7c5be4a-fb16-45ab-9db7-1f3b0c7d14ad","email" : "tvl3"
+#& tvl2 2029-05-28
+},{"id": "0d84b0d0-476b-4eb9-bf42-248063deae5d","email" : "tvl2"
+#& tvl1 2029-05-28
+},{"id": "6c293755-82aa-48bd-8e25-05d9b02b2f0d","email" : "tvl1"
+#& Trial-VM451 2026-09-02
+},{"id": "e5d7b79a-6d7c-4f45-80b8-db11d3b45833","email": "Trial-VM451"
 #& 1000 2026-09-02
 },{"id": "d021ef1b-38de-4eff-b712-c11898653126","email" : "1000"
 #& cbvlstest 2029-05-28
@@ -1374,7 +2256,7 @@
       "streamSettings": {
         "network": "httpupgrade",
           "httpupgradeSettings": {
-            "path": "/httpupgrade",
+            "path": "/n-hup-vless",
             "host": "wd3p.scbackend.my.id"
           },
           "security": "tls",
@@ -1394,7 +2276,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10060,
       "protocol": "vless",
       "settings": {
@@ -1403,6 +2285,32 @@
 {
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vlesshttpupgrade-none
+#& Trial-VM007 2026-09-02
+},{"id": "45276c9b-df48-4d9b-8334-071cd454f5ca","email": "Trial-VM007"
+#& Trial-VM587 2026-09-02
+},{"id": "81437c12-95e4-44df-b177-5bc4852974e1","email": "Trial-VM587"
+#& cbfull2 2029-05-28
+},{"id": "9384588f-c0b8-4295-a2c6-e8837fde5f1f","email" : "cbfull2"
+#& Trial-VM754 2026-09-02
+},{"id": "774d3799-ef91-4fb8-b3e1-9a7e13f367b3","email": "Trial-VM754"
+#& Trial-VM317 2026-09-02
+},{"id": "42191739-9711-449f-aac5-51756bba09fc","email": "Trial-VM317"
+#& tvl7 2029-05-28
+},{"id": "1a93ba65-20d4-437d-b2f3-826928c01948","email" : "tvl7"
+#& tvl6 2029-05-28
+},{"id": "9e4d91e4-28e8-420f-b597-8e101f677945","email" : "tvl6"
+#& tvl5 2029-05-28
+},{"id": "bd5e4f6a-63d9-4806-b394-086c8d22d7a7","email" : "tvl5"
+#& tvl4 2029-05-28
+},{"id": "4c12d721-31a6-4655-8a93-74b2a8f37b45","email" : "tvl4"
+#& tvl3 2029-05-28
+},{"id": "b7c5be4a-fb16-45ab-9db7-1f3b0c7d14ad","email" : "tvl3"
+#& tvl2 2029-05-28
+},{"id": "0d84b0d0-476b-4eb9-bf42-248063deae5d","email" : "tvl2"
+#& tvl1 2029-05-28
+},{"id": "6c293755-82aa-48bd-8e25-05d9b02b2f0d","email" : "tvl1"
+#& Trial-VM451 2026-09-02
+},{"id": "e5d7b79a-6d7c-4f45-80b8-db11d3b45833","email": "Trial-VM451"
 #& 1000 2026-09-02
 },{"id": "d021ef1b-38de-4eff-b712-c11898653126","email" : "1000"
 #& cbvlstest 2029-05-28
@@ -1425,7 +2333,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10061,
       "protocol": "vless",
       "settings": {
@@ -1434,6 +2342,32 @@
 {
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vlessxhttp-tls
+#& Trial-VM007 2026-09-02
+},{"id": "45276c9b-df48-4d9b-8334-071cd454f5ca","email": "Trial-VM007"
+#& Trial-VM587 2026-09-02
+},{"id": "81437c12-95e4-44df-b177-5bc4852974e1","email": "Trial-VM587"
+#& cbfull2 2029-05-28
+},{"id": "9384588f-c0b8-4295-a2c6-e8837fde5f1f","email" : "cbfull2"
+#& Trial-VM754 2026-09-02
+},{"id": "774d3799-ef91-4fb8-b3e1-9a7e13f367b3","email": "Trial-VM754"
+#& Trial-VM317 2026-09-02
+},{"id": "42191739-9711-449f-aac5-51756bba09fc","email": "Trial-VM317"
+#& tvl7 2029-05-28
+},{"id": "1a93ba65-20d4-437d-b2f3-826928c01948","email" : "tvl7"
+#& tvl6 2029-05-28
+},{"id": "9e4d91e4-28e8-420f-b597-8e101f677945","email" : "tvl6"
+#& tvl5 2029-05-28
+},{"id": "bd5e4f6a-63d9-4806-b394-086c8d22d7a7","email" : "tvl5"
+#& tvl4 2029-05-28
+},{"id": "4c12d721-31a6-4655-8a93-74b2a8f37b45","email" : "tvl4"
+#& tvl3 2029-05-28
+},{"id": "b7c5be4a-fb16-45ab-9db7-1f3b0c7d14ad","email" : "tvl3"
+#& tvl2 2029-05-28
+},{"id": "0d84b0d0-476b-4eb9-bf42-248063deae5d","email" : "tvl2"
+#& tvl1 2029-05-28
+},{"id": "6c293755-82aa-48bd-8e25-05d9b02b2f0d","email" : "tvl1"
+#& Trial-VM451 2026-09-02
+},{"id": "e5d7b79a-6d7c-4f45-80b8-db11d3b45833","email": "Trial-VM451"
 #& 1000 2026-09-02
 },{"id": "d021ef1b-38de-4eff-b712-c11898653126","email" : "1000"
 #& cbvlstest 2029-05-28
@@ -1445,7 +2379,7 @@
       "streamSettings": {
         "network": "xhttp",
           "xhttpSettings": {
-            "path": "/xhttp",
+            "path": "/n-xh-vless",
             "host": "wd3p.scbackend.my.id"
           },
           "security": "tls",
@@ -1465,7 +2399,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10062,
       "protocol": "vless",
       "settings": {
@@ -1474,6 +2408,32 @@
 {
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vlessxhttp-reality
+#& Trial-VM007 2026-09-02
+},{"id": "45276c9b-df48-4d9b-8334-071cd454f5ca","email": "Trial-VM007"
+#& Trial-VM587 2026-09-02
+},{"id": "81437c12-95e4-44df-b177-5bc4852974e1","email": "Trial-VM587"
+#& cbfull2 2029-05-28
+},{"id": "9384588f-c0b8-4295-a2c6-e8837fde5f1f","email" : "cbfull2"
+#& Trial-VM754 2026-09-02
+},{"id": "774d3799-ef91-4fb8-b3e1-9a7e13f367b3","email": "Trial-VM754"
+#& Trial-VM317 2026-09-02
+},{"id": "42191739-9711-449f-aac5-51756bba09fc","email": "Trial-VM317"
+#& tvl7 2029-05-28
+},{"id": "1a93ba65-20d4-437d-b2f3-826928c01948","email" : "tvl7"
+#& tvl6 2029-05-28
+},{"id": "9e4d91e4-28e8-420f-b597-8e101f677945","email" : "tvl6"
+#& tvl5 2029-05-28
+},{"id": "bd5e4f6a-63d9-4806-b394-086c8d22d7a7","email" : "tvl5"
+#& tvl4 2029-05-28
+},{"id": "4c12d721-31a6-4655-8a93-74b2a8f37b45","email" : "tvl4"
+#& tvl3 2029-05-28
+},{"id": "b7c5be4a-fb16-45ab-9db7-1f3b0c7d14ad","email" : "tvl3"
+#& tvl2 2029-05-28
+},{"id": "0d84b0d0-476b-4eb9-bf42-248063deae5d","email" : "tvl2"
+#& tvl1 2029-05-28
+},{"id": "6c293755-82aa-48bd-8e25-05d9b02b2f0d","email" : "tvl1"
+#& Trial-VM451 2026-09-02
+},{"id": "e5d7b79a-6d7c-4f45-80b8-db11d3b45833","email": "Trial-VM451"
 #& 1000 2026-09-02
 },{"id": "d021ef1b-38de-4eff-b712-c11898653126","email" : "1000"
 #& cbvlstest 2029-05-28
@@ -1504,7 +2464,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10063,
       "protocol": "vless",
       "settings": {
@@ -1513,6 +2473,32 @@
 {
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vlessxhttp-none
+#& Trial-VM007 2026-09-02
+},{"id": "45276c9b-df48-4d9b-8334-071cd454f5ca","email": "Trial-VM007"
+#& Trial-VM587 2026-09-02
+},{"id": "81437c12-95e4-44df-b177-5bc4852974e1","email": "Trial-VM587"
+#& cbfull2 2029-05-28
+},{"id": "9384588f-c0b8-4295-a2c6-e8837fde5f1f","email" : "cbfull2"
+#& Trial-VM754 2026-09-02
+},{"id": "774d3799-ef91-4fb8-b3e1-9a7e13f367b3","email": "Trial-VM754"
+#& Trial-VM317 2026-09-02
+},{"id": "42191739-9711-449f-aac5-51756bba09fc","email": "Trial-VM317"
+#& tvl7 2029-05-28
+},{"id": "1a93ba65-20d4-437d-b2f3-826928c01948","email" : "tvl7"
+#& tvl6 2029-05-28
+},{"id": "9e4d91e4-28e8-420f-b597-8e101f677945","email" : "tvl6"
+#& tvl5 2029-05-28
+},{"id": "bd5e4f6a-63d9-4806-b394-086c8d22d7a7","email" : "tvl5"
+#& tvl4 2029-05-28
+},{"id": "4c12d721-31a6-4655-8a93-74b2a8f37b45","email" : "tvl4"
+#& tvl3 2029-05-28
+},{"id": "b7c5be4a-fb16-45ab-9db7-1f3b0c7d14ad","email" : "tvl3"
+#& tvl2 2029-05-28
+},{"id": "0d84b0d0-476b-4eb9-bf42-248063deae5d","email" : "tvl2"
+#& tvl1 2029-05-28
+},{"id": "6c293755-82aa-48bd-8e25-05d9b02b2f0d","email" : "tvl1"
+#& Trial-VM451 2026-09-02
+},{"id": "e5d7b79a-6d7c-4f45-80b8-db11d3b45833","email": "Trial-VM451"
 #& 1000 2026-09-02
 },{"id": "d021ef1b-38de-4eff-b712-c11898653126","email" : "1000"
 #& cbvlstest 2029-05-28
@@ -1535,7 +2521,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10064,
       "protocol": "vless",
       "settings": {
@@ -1544,6 +2530,32 @@
 {
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vlessquic-tls
+#& Trial-VM007 2026-09-02
+},{"id": "45276c9b-df48-4d9b-8334-071cd454f5ca","email": "Trial-VM007"
+#& Trial-VM587 2026-09-02
+},{"id": "81437c12-95e4-44df-b177-5bc4852974e1","email": "Trial-VM587"
+#& cbfull2 2029-05-28
+},{"id": "9384588f-c0b8-4295-a2c6-e8837fde5f1f","email" : "cbfull2"
+#& Trial-VM754 2026-09-02
+},{"id": "774d3799-ef91-4fb8-b3e1-9a7e13f367b3","email": "Trial-VM754"
+#& Trial-VM317 2026-09-02
+},{"id": "42191739-9711-449f-aac5-51756bba09fc","email": "Trial-VM317"
+#& tvl7 2029-05-28
+},{"id": "1a93ba65-20d4-437d-b2f3-826928c01948","email" : "tvl7"
+#& tvl6 2029-05-28
+},{"id": "9e4d91e4-28e8-420f-b597-8e101f677945","email" : "tvl6"
+#& tvl5 2029-05-28
+},{"id": "bd5e4f6a-63d9-4806-b394-086c8d22d7a7","email" : "tvl5"
+#& tvl4 2029-05-28
+},{"id": "4c12d721-31a6-4655-8a93-74b2a8f37b45","email" : "tvl4"
+#& tvl3 2029-05-28
+},{"id": "b7c5be4a-fb16-45ab-9db7-1f3b0c7d14ad","email" : "tvl3"
+#& tvl2 2029-05-28
+},{"id": "0d84b0d0-476b-4eb9-bf42-248063deae5d","email" : "tvl2"
+#& tvl1 2029-05-28
+},{"id": "6c293755-82aa-48bd-8e25-05d9b02b2f0d","email" : "tvl1"
+#& Trial-VM451 2026-09-02
+},{"id": "e5d7b79a-6d7c-4f45-80b8-db11d3b45833","email": "Trial-VM451"
 #& 1000 2026-09-02
 },{"id": "d021ef1b-38de-4eff-b712-c11898653126","email" : "1000"
 #& cbvlstest 2029-05-28
@@ -1580,7 +2592,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10065,
       "protocol": "vless",
       "settings": {
@@ -1589,6 +2601,32 @@
 {
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vlessquic-none
+#& Trial-VM007 2026-09-02
+},{"id": "45276c9b-df48-4d9b-8334-071cd454f5ca","email": "Trial-VM007"
+#& Trial-VM587 2026-09-02
+},{"id": "81437c12-95e4-44df-b177-5bc4852974e1","email": "Trial-VM587"
+#& cbfull2 2029-05-28
+},{"id": "9384588f-c0b8-4295-a2c6-e8837fde5f1f","email" : "cbfull2"
+#& Trial-VM754 2026-09-02
+},{"id": "774d3799-ef91-4fb8-b3e1-9a7e13f367b3","email": "Trial-VM754"
+#& Trial-VM317 2026-09-02
+},{"id": "42191739-9711-449f-aac5-51756bba09fc","email": "Trial-VM317"
+#& tvl7 2029-05-28
+},{"id": "1a93ba65-20d4-437d-b2f3-826928c01948","email" : "tvl7"
+#& tvl6 2029-05-28
+},{"id": "9e4d91e4-28e8-420f-b597-8e101f677945","email" : "tvl6"
+#& tvl5 2029-05-28
+},{"id": "bd5e4f6a-63d9-4806-b394-086c8d22d7a7","email" : "tvl5"
+#& tvl4 2029-05-28
+},{"id": "4c12d721-31a6-4655-8a93-74b2a8f37b45","email" : "tvl4"
+#& tvl3 2029-05-28
+},{"id": "b7c5be4a-fb16-45ab-9db7-1f3b0c7d14ad","email" : "tvl3"
+#& tvl2 2029-05-28
+},{"id": "0d84b0d0-476b-4eb9-bf42-248063deae5d","email" : "tvl2"
+#& tvl1 2029-05-28
+},{"id": "6c293755-82aa-48bd-8e25-05d9b02b2f0d","email" : "tvl1"
+#& Trial-VM451 2026-09-02
+},{"id": "e5d7b79a-6d7c-4f45-80b8-db11d3b45833","email": "Trial-VM451"
 #& 1000 2026-09-02
 },{"id": "d021ef1b-38de-4eff-b712-c11898653126","email" : "1000"
 #& cbvlstest 2029-05-28
@@ -1616,7 +2654,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10066,
       "protocol": "vless",
       "settings": {
@@ -1625,6 +2663,32 @@
 {
             "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
 #vlessdomainsocket-none
+#& Trial-VM007 2026-09-02
+},{"id": "45276c9b-df48-4d9b-8334-071cd454f5ca","email": "Trial-VM007"
+#& Trial-VM587 2026-09-02
+},{"id": "81437c12-95e4-44df-b177-5bc4852974e1","email": "Trial-VM587"
+#& cbfull2 2029-05-28
+},{"id": "9384588f-c0b8-4295-a2c6-e8837fde5f1f","email" : "cbfull2"
+#& Trial-VM754 2026-09-02
+},{"id": "774d3799-ef91-4fb8-b3e1-9a7e13f367b3","email": "Trial-VM754"
+#& Trial-VM317 2026-09-02
+},{"id": "42191739-9711-449f-aac5-51756bba09fc","email": "Trial-VM317"
+#& tvl7 2029-05-28
+},{"id": "1a93ba65-20d4-437d-b2f3-826928c01948","email" : "tvl7"
+#& tvl6 2029-05-28
+},{"id": "9e4d91e4-28e8-420f-b597-8e101f677945","email" : "tvl6"
+#& tvl5 2029-05-28
+},{"id": "bd5e4f6a-63d9-4806-b394-086c8d22d7a7","email" : "tvl5"
+#& tvl4 2029-05-28
+},{"id": "4c12d721-31a6-4655-8a93-74b2a8f37b45","email" : "tvl4"
+#& tvl3 2029-05-28
+},{"id": "b7c5be4a-fb16-45ab-9db7-1f3b0c7d14ad","email" : "tvl3"
+#& tvl2 2029-05-28
+},{"id": "0d84b0d0-476b-4eb9-bf42-248063deae5d","email" : "tvl2"
+#& tvl1 2029-05-28
+},{"id": "6c293755-82aa-48bd-8e25-05d9b02b2f0d","email" : "tvl1"
+#& Trial-VM451 2026-09-02
+},{"id": "e5d7b79a-6d7c-4f45-80b8-db11d3b45833","email": "Trial-VM451"
 #& 1000 2026-09-02
 },{"id": "d021ef1b-38de-4eff-b712-c11898653126","email" : "1000"
 #& cbvlstest 2029-05-28
@@ -1648,7 +2712,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10067,
       "protocol": "trojan",
       "settings": {
@@ -1657,6 +2721,16 @@
             "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "email": "default"
 #trojantcp-tls
+#! Trial-VM275 2026-09-02
+},{"password": "9f17f11c-448a-49e3-8bd4-2ac73652fd73","email": "Trial-VM275"
+#! cbfull3 2029-05-28
+},{"password": "86d01ead-91d0-4eea-98bd-fee875b8e29d","email": "cbfull3"
+#! Trial-VM399 2026-09-02
+},{"password": "12a9b82a-b40a-4a44-b970-c9d2805e494b","email": "Trial-VM399"
+#! ttr7 2029-05-28
+},{"password": "c3b4bd56-9697-4e82-bc2c-1f93479be817","email": "ttr7"
+#! ttr1 2029-05-28
+},{"password": "ff0734c5-563b-4dd1-9368-4d6dfe88ee32","email": "ttr1"
 #! cbtrtest 2029-05-28
 },{"password": "bea5e6e7-1644-41ef-bfb3-af785ab10db3","email": "cbtrtest"
           }
@@ -1684,7 +2758,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10068,
       "protocol": "trojan",
       "settings": {
@@ -1693,6 +2767,16 @@
             "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "email": "default"
 #trojantcp-none
+#! Trial-VM275 2026-09-02
+},{"password": "9f17f11c-448a-49e3-8bd4-2ac73652fd73","email": "Trial-VM275"
+#! cbfull3 2029-05-28
+},{"password": "86d01ead-91d0-4eea-98bd-fee875b8e29d","email": "cbfull3"
+#! Trial-VM399 2026-09-02
+},{"password": "12a9b82a-b40a-4a44-b970-c9d2805e494b","email": "Trial-VM399"
+#! ttr7 2029-05-28
+},{"password": "c3b4bd56-9697-4e82-bc2c-1f93479be817","email": "ttr7"
+#! ttr1 2029-05-28
+},{"password": "ff0734c5-563b-4dd1-9368-4d6dfe88ee32","email": "ttr1"
 #! cbtrtest 2029-05-28
 },{"password": "bea5e6e7-1644-41ef-bfb3-af785ab10db3","email": "cbtrtest"
           }
@@ -1711,7 +2795,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10069,
       "protocol": "trojan",
       "settings": {
@@ -1720,6 +2804,16 @@
             "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "email": "default"
 #trojankcp-tls
+#! Trial-VM275 2026-09-02
+},{"password": "9f17f11c-448a-49e3-8bd4-2ac73652fd73","email": "Trial-VM275"
+#! cbfull3 2029-05-28
+},{"password": "86d01ead-91d0-4eea-98bd-fee875b8e29d","email": "cbfull3"
+#! Trial-VM399 2026-09-02
+},{"password": "12a9b82a-b40a-4a44-b970-c9d2805e494b","email": "Trial-VM399"
+#! ttr7 2029-05-28
+},{"password": "c3b4bd56-9697-4e82-bc2c-1f93479be817","email": "ttr7"
+#! ttr1 2029-05-28
+},{"password": "ff0734c5-563b-4dd1-9368-4d6dfe88ee32","email": "ttr1"
 #! cbtrtest 2029-05-28
 },{"password": "bea5e6e7-1644-41ef-bfb3-af785ab10db3","email": "cbtrtest"
           }
@@ -1754,7 +2848,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10070,
       "protocol": "trojan",
       "settings": {
@@ -1763,6 +2857,16 @@
             "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "email": "default"
 #trojankcp-none
+#! Trial-VM275 2026-09-02
+},{"password": "9f17f11c-448a-49e3-8bd4-2ac73652fd73","email": "Trial-VM275"
+#! cbfull3 2029-05-28
+},{"password": "86d01ead-91d0-4eea-98bd-fee875b8e29d","email": "cbfull3"
+#! Trial-VM399 2026-09-02
+},{"password": "12a9b82a-b40a-4a44-b970-c9d2805e494b","email": "Trial-VM399"
+#! ttr7 2029-05-28
+},{"password": "c3b4bd56-9697-4e82-bc2c-1f93479be817","email": "ttr7"
+#! ttr1 2029-05-28
+},{"password": "ff0734c5-563b-4dd1-9368-4d6dfe88ee32","email": "ttr1"
 #! cbtrtest 2029-05-28
 },{"password": "bea5e6e7-1644-41ef-bfb3-af785ab10db3","email": "cbtrtest"
           }
@@ -1788,7 +2892,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10071,
       "protocol": "trojan",
       "settings": {
@@ -1797,6 +2901,16 @@
             "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "email": "default"
 #trojanws-tls
+#! Trial-VM275 2026-09-02
+},{"password": "9f17f11c-448a-49e3-8bd4-2ac73652fd73","email": "Trial-VM275"
+#! cbfull3 2029-05-28
+},{"password": "86d01ead-91d0-4eea-98bd-fee875b8e29d","email": "cbfull3"
+#! Trial-VM399 2026-09-02
+},{"password": "12a9b82a-b40a-4a44-b970-c9d2805e494b","email": "Trial-VM399"
+#! ttr7 2029-05-28
+},{"password": "c3b4bd56-9697-4e82-bc2c-1f93479be817","email": "ttr7"
+#! ttr1 2029-05-28
+},{"password": "ff0734c5-563b-4dd1-9368-4d6dfe88ee32","email": "ttr1"
 #! cbtrtest 2029-05-28
 },{"password": "bea5e6e7-1644-41ef-bfb3-af785ab10db3","email": "cbtrtest"
           }
@@ -1806,7 +2920,7 @@
       "streamSettings": {
         "network": "ws",
           "wsSettings": {
-            "path": "/ws"
+            "path": "/n-ws-trojan"
           },
           "security": "tls",
           "tlsSettings": {
@@ -1825,7 +2939,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10072,
       "protocol": "trojan",
       "settings": {
@@ -1834,6 +2948,16 @@
             "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "email": "default"
 #trojanws-none
+#! Trial-VM275 2026-09-02
+},{"password": "9f17f11c-448a-49e3-8bd4-2ac73652fd73","email": "Trial-VM275"
+#! cbfull3 2029-05-28
+},{"password": "86d01ead-91d0-4eea-98bd-fee875b8e29d","email": "cbfull3"
+#! Trial-VM399 2026-09-02
+},{"password": "12a9b82a-b40a-4a44-b970-c9d2805e494b","email": "Trial-VM399"
+#! ttr7 2029-05-28
+},{"password": "c3b4bd56-9697-4e82-bc2c-1f93479be817","email": "ttr7"
+#! ttr1 2029-05-28
+},{"password": "ff0734c5-563b-4dd1-9368-4d6dfe88ee32","email": "ttr1"
 #! cbtrtest 2029-05-28
 },{"password": "bea5e6e7-1644-41ef-bfb3-af785ab10db3","email": "cbtrtest"
           }
@@ -1853,7 +2977,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10073,
       "protocol": "trojan",
       "settings": {
@@ -1862,6 +2986,16 @@
             "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "email": "default"
 #trojanhttp-tls
+#! Trial-VM275 2026-09-02
+},{"password": "9f17f11c-448a-49e3-8bd4-2ac73652fd73","email": "Trial-VM275"
+#! cbfull3 2029-05-28
+},{"password": "86d01ead-91d0-4eea-98bd-fee875b8e29d","email": "cbfull3"
+#! Trial-VM399 2026-09-02
+},{"password": "12a9b82a-b40a-4a44-b970-c9d2805e494b","email": "Trial-VM399"
+#! ttr7 2029-05-28
+},{"password": "c3b4bd56-9697-4e82-bc2c-1f93479be817","email": "ttr7"
+#! ttr1 2029-05-28
+},{"password": "ff0734c5-563b-4dd1-9368-4d6dfe88ee32","email": "ttr1"
 #! cbtrtest 2029-05-28
 },{"password": "bea5e6e7-1644-41ef-bfb3-af785ab10db3","email": "cbtrtest"
           }
@@ -1895,7 +3029,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10074,
       "protocol": "trojan",
       "settings": {
@@ -1904,6 +3038,16 @@
             "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "email": "default"
 #trojanhttp-none
+#! Trial-VM275 2026-09-02
+},{"password": "9f17f11c-448a-49e3-8bd4-2ac73652fd73","email": "Trial-VM275"
+#! cbfull3 2029-05-28
+},{"password": "86d01ead-91d0-4eea-98bd-fee875b8e29d","email": "cbfull3"
+#! Trial-VM399 2026-09-02
+},{"password": "12a9b82a-b40a-4a44-b970-c9d2805e494b","email": "Trial-VM399"
+#! ttr7 2029-05-28
+},{"password": "c3b4bd56-9697-4e82-bc2c-1f93479be817","email": "ttr7"
+#! ttr1 2029-05-28
+},{"password": "ff0734c5-563b-4dd1-9368-4d6dfe88ee32","email": "ttr1"
 #! cbtrtest 2029-05-28
 },{"password": "bea5e6e7-1644-41ef-bfb3-af785ab10db3","email": "cbtrtest"
           }
@@ -1928,7 +3072,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10075,
       "protocol": "trojan",
       "settings": {
@@ -1937,6 +3081,16 @@
             "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "email": "default"
 #trojangrpc-tls
+#! Trial-VM275 2026-09-02
+},{"password": "9f17f11c-448a-49e3-8bd4-2ac73652fd73","email": "Trial-VM275"
+#! cbfull3 2029-05-28
+},{"password": "86d01ead-91d0-4eea-98bd-fee875b8e29d","email": "cbfull3"
+#! Trial-VM399 2026-09-02
+},{"password": "12a9b82a-b40a-4a44-b970-c9d2805e494b","email": "Trial-VM399"
+#! ttr7 2029-05-28
+},{"password": "c3b4bd56-9697-4e82-bc2c-1f93479be817","email": "ttr7"
+#! ttr1 2029-05-28
+},{"password": "ff0734c5-563b-4dd1-9368-4d6dfe88ee32","email": "ttr1"
 #! cbtrtest 2029-05-28
 },{"password": "bea5e6e7-1644-41ef-bfb3-af785ab10db3","email": "cbtrtest"
           }
@@ -1965,7 +3119,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10076,
       "protocol": "trojan",
       "settings": {
@@ -1974,6 +3128,16 @@
             "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "email": "default"
 #trojangrpc-none
+#! Trial-VM275 2026-09-02
+},{"password": "9f17f11c-448a-49e3-8bd4-2ac73652fd73","email": "Trial-VM275"
+#! cbfull3 2029-05-28
+},{"password": "86d01ead-91d0-4eea-98bd-fee875b8e29d","email": "cbfull3"
+#! Trial-VM399 2026-09-02
+},{"password": "12a9b82a-b40a-4a44-b970-c9d2805e494b","email": "Trial-VM399"
+#! ttr7 2029-05-28
+},{"password": "c3b4bd56-9697-4e82-bc2c-1f93479be817","email": "ttr7"
+#! ttr1 2029-05-28
+},{"password": "ff0734c5-563b-4dd1-9368-4d6dfe88ee32","email": "ttr1"
 #! cbtrtest 2029-05-28
 },{"password": "bea5e6e7-1644-41ef-bfb3-af785ab10db3","email": "cbtrtest"
           }
@@ -1993,7 +3157,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10077,
       "protocol": "trojan",
       "settings": {
@@ -2002,6 +3166,16 @@
             "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "email": "default"
 #trojanhttpupgrade-tls
+#! Trial-VM275 2026-09-02
+},{"password": "9f17f11c-448a-49e3-8bd4-2ac73652fd73","email": "Trial-VM275"
+#! cbfull3 2029-05-28
+},{"password": "86d01ead-91d0-4eea-98bd-fee875b8e29d","email": "cbfull3"
+#! Trial-VM399 2026-09-02
+},{"password": "12a9b82a-b40a-4a44-b970-c9d2805e494b","email": "Trial-VM399"
+#! ttr7 2029-05-28
+},{"password": "c3b4bd56-9697-4e82-bc2c-1f93479be817","email": "ttr7"
+#! ttr1 2029-05-28
+},{"password": "ff0734c5-563b-4dd1-9368-4d6dfe88ee32","email": "ttr1"
 #! cbtrtest 2029-05-28
 },{"password": "bea5e6e7-1644-41ef-bfb3-af785ab10db3","email": "cbtrtest"
           }
@@ -2011,7 +3185,7 @@
       "streamSettings": {
         "network": "httpupgrade",
           "httpupgradeSettings": {
-            "path": "/httpupgrade",
+            "path": "/n-hup-trojan",
             "host": "wd3p.scbackend.my.id"
           },
           "security": "tls",
@@ -2031,7 +3205,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10078,
       "protocol": "trojan",
       "settings": {
@@ -2040,6 +3214,16 @@
             "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "email": "default"
 #trojanhttpupgrade-none
+#! Trial-VM275 2026-09-02
+},{"password": "9f17f11c-448a-49e3-8bd4-2ac73652fd73","email": "Trial-VM275"
+#! cbfull3 2029-05-28
+},{"password": "86d01ead-91d0-4eea-98bd-fee875b8e29d","email": "cbfull3"
+#! Trial-VM399 2026-09-02
+},{"password": "12a9b82a-b40a-4a44-b970-c9d2805e494b","email": "Trial-VM399"
+#! ttr7 2029-05-28
+},{"password": "c3b4bd56-9697-4e82-bc2c-1f93479be817","email": "ttr7"
+#! ttr1 2029-05-28
+},{"password": "ff0734c5-563b-4dd1-9368-4d6dfe88ee32","email": "ttr1"
 #! cbtrtest 2029-05-28
 },{"password": "bea5e6e7-1644-41ef-bfb3-af785ab10db3","email": "cbtrtest"
           }
@@ -2060,7 +3244,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10079,
       "protocol": "trojan",
       "settings": {
@@ -2069,6 +3253,16 @@
             "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "email": "default"
 #trojanxhttp-tls
+#! Trial-VM275 2026-09-02
+},{"password": "9f17f11c-448a-49e3-8bd4-2ac73652fd73","email": "Trial-VM275"
+#! cbfull3 2029-05-28
+},{"password": "86d01ead-91d0-4eea-98bd-fee875b8e29d","email": "cbfull3"
+#! Trial-VM399 2026-09-02
+},{"password": "12a9b82a-b40a-4a44-b970-c9d2805e494b","email": "Trial-VM399"
+#! ttr7 2029-05-28
+},{"password": "c3b4bd56-9697-4e82-bc2c-1f93479be817","email": "ttr7"
+#! ttr1 2029-05-28
+},{"password": "ff0734c5-563b-4dd1-9368-4d6dfe88ee32","email": "ttr1"
 #! cbtrtest 2029-05-28
 },{"password": "bea5e6e7-1644-41ef-bfb3-af785ab10db3","email": "cbtrtest"
           }
@@ -2078,7 +3272,7 @@
       "streamSettings": {
         "network": "xhttp",
           "xhttpSettings": {
-            "path": "/xhttp",
+            "path": "/n-xh-trojan",
             "host": "wd3p.scbackend.my.id"
           },
           "security": "tls",
@@ -2098,7 +3292,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10080,
       "protocol": "trojan",
       "settings": {
@@ -2107,6 +3301,16 @@
             "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "email": "default"
 #trojanxhttp-none
+#! Trial-VM275 2026-09-02
+},{"password": "9f17f11c-448a-49e3-8bd4-2ac73652fd73","email": "Trial-VM275"
+#! cbfull3 2029-05-28
+},{"password": "86d01ead-91d0-4eea-98bd-fee875b8e29d","email": "cbfull3"
+#! Trial-VM399 2026-09-02
+},{"password": "12a9b82a-b40a-4a44-b970-c9d2805e494b","email": "Trial-VM399"
+#! ttr7 2029-05-28
+},{"password": "c3b4bd56-9697-4e82-bc2c-1f93479be817","email": "ttr7"
+#! ttr1 2029-05-28
+},{"password": "ff0734c5-563b-4dd1-9368-4d6dfe88ee32","email": "ttr1"
 #! cbtrtest 2029-05-28
 },{"password": "bea5e6e7-1644-41ef-bfb3-af785ab10db3","email": "cbtrtest"
           }
@@ -2127,7 +3331,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10081,
       "protocol": "trojan",
       "settings": {
@@ -2136,6 +3340,16 @@
             "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "email": "default"
 #trojanquic-tls
+#! Trial-VM275 2026-09-02
+},{"password": "9f17f11c-448a-49e3-8bd4-2ac73652fd73","email": "Trial-VM275"
+#! cbfull3 2029-05-28
+},{"password": "86d01ead-91d0-4eea-98bd-fee875b8e29d","email": "cbfull3"
+#! Trial-VM399 2026-09-02
+},{"password": "12a9b82a-b40a-4a44-b970-c9d2805e494b","email": "Trial-VM399"
+#! ttr7 2029-05-28
+},{"password": "c3b4bd56-9697-4e82-bc2c-1f93479be817","email": "ttr7"
+#! ttr1 2029-05-28
+},{"password": "ff0734c5-563b-4dd1-9368-4d6dfe88ee32","email": "ttr1"
 #! cbtrtest 2029-05-28
 },{"password": "bea5e6e7-1644-41ef-bfb3-af785ab10db3","email": "cbtrtest"
           }
@@ -2170,7 +3384,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10082,
       "protocol": "trojan",
       "settings": {
@@ -2179,6 +3393,16 @@
             "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "email": "default"
 #trojanquic-none
+#! Trial-VM275 2026-09-02
+},{"password": "9f17f11c-448a-49e3-8bd4-2ac73652fd73","email": "Trial-VM275"
+#! cbfull3 2029-05-28
+},{"password": "86d01ead-91d0-4eea-98bd-fee875b8e29d","email": "cbfull3"
+#! Trial-VM399 2026-09-02
+},{"password": "12a9b82a-b40a-4a44-b970-c9d2805e494b","email": "Trial-VM399"
+#! ttr7 2029-05-28
+},{"password": "c3b4bd56-9697-4e82-bc2c-1f93479be817","email": "ttr7"
+#! ttr1 2029-05-28
+},{"password": "ff0734c5-563b-4dd1-9368-4d6dfe88ee32","email": "ttr1"
 #! cbtrtest 2029-05-28
 },{"password": "bea5e6e7-1644-41ef-bfb3-af785ab10db3","email": "cbtrtest"
           }
@@ -2204,7 +3428,7 @@
       }
     },
         {
-      "listen": "127.0.0.1",
+      "listen": "0.0.0.0",
       "port": 10083,
       "protocol": "trojan",
       "settings": {
@@ -2213,6 +3437,16 @@
             "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
             "email": "default"
 #trojandomainsocket-none
+#! Trial-VM275 2026-09-02
+},{"password": "9f17f11c-448a-49e3-8bd4-2ac73652fd73","email": "Trial-VM275"
+#! cbfull3 2029-05-28
+},{"password": "86d01ead-91d0-4eea-98bd-fee875b8e29d","email": "cbfull3"
+#! Trial-VM399 2026-09-02
+},{"password": "12a9b82a-b40a-4a44-b970-c9d2805e494b","email": "Trial-VM399"
+#! ttr7 2029-05-28
+},{"password": "c3b4bd56-9697-4e82-bc2c-1f93479be817","email": "ttr7"
+#! ttr1 2029-05-28
+},{"password": "ff0734c5-563b-4dd1-9368-4d6dfe88ee32","email": "ttr1"
 #! cbtrtest 2029-05-28
 },{"password": "bea5e6e7-1644-41ef-bfb3-af785ab10db3","email": "cbtrtest"
           }
