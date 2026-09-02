@@ -71,15 +71,18 @@ def convert(path):
     cur_link_tag = None
     for l in lines:
         m = re.match(r'^([A-Za-z][A-Za-z0-9 /]*)\s*:\s*(.+)$', l)
-        if m and 'vmess://' not in l and 'vless://' not in l and 'trojan://' not in l and 'ss://' not in l:
+        if m and ('vmess://' in l or 'vless://' in l or 'trojan://' in l or 'ss://' in l):
+            # baris "Tls   : vmess://..." -> link dengan tag
             k, v = m.group(1).strip(), m.group(2).strip()
-            if k.lower() in ('tls', 'ntls', 'grpc', 'xhttp', 'ws-xhttp', 'up', 'uptls', 'upntls', 'none', 'multi', 'stn', 'tlsxhttp', 'grpcxhttp', 'reality', 'any'):
-                links.append((k.upper(), v))
-            elif k.lower() == 'exp':
+            links.append((k.upper(), v))
+            continue
+        if m:
+            k, v = m.group(1).strip(), m.group(2).strip()
+            if k.lower() == 'exp':
                 exp = v
-            else:
-                if k.lower() in ('host', 'domain', 'server'):
-                    title_host = v
+            elif k.lower() in ('host', 'domain', 'server'):
+                pass
+            if k.lower() not in ('host', 'domain', 'server'):
                 info.append((k, v))
         elif re.match(r'^(vmess|vless|trojan|ss)://', l.strip()):
             links.append((cur_link_tag or 'LINK', l.strip()))
