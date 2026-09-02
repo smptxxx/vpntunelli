@@ -1,0 +1,524 @@
+# !/bin/bash
+# ████████╗░█████╗░██╗░░██╗░█████╗░██╗░░░██╗██████╗░███╗░░██╗
+# ╚══██╔══╝██╔══██╗██║░██╔╝██╔══██╗██║░░░██║██╔══██╗████╗░██║
+# ░░░██║░░░██║░░██║█████═╝░██║░░██║╚██╗░██╔╝██████╔╝██╔██╗██║
+# ░░░██║░░░██║░░██║██╔═██╗░██║░░██║░╚████╔╝░██╔═══╝░██║╚████║
+# ░░░██║░░░╚█████╔╝██║░╚██╗╚█████╔╝░░╚██╔╝░░██║░░░░░██║░╚███║
+# ░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝░╚════╝░░░░╚═╝░░░╚═╝░░░░░╚═╝░░╚══╝
+
+BICyan='\033[1;97m'       # Cyan
+BIWhite='\033[1;97m'      # White
+UWhite='\033[4;37m'       # White
+BIYellow='\033[1;37m'     # Yellow
+BGWHITE='\E[40;1;37m'     # Bgwhite
+
+RED="\033[90m"
+NC='\e[0m'
+GREEN='\033[0;97m'
+ORANGE='\033[0;90m'
+YELL='\033[0;90m'
+
+CHATID=$(grep -E "^#bot# " "/etc/bot/.bot.db" | cut -d ' ' -f 3)
+KEY=$(grep -E "^#bot# " "/etc/bot/.bot.db" | cut -d ' ' -f 2)
+TIME="10"
+URL="https://api.telegram.org/bot$KEY/sendMessage"
+ISP=$(cat /etc/xray/isp)
+CITY=$(cat /etc/xray/city)
+IP=$(cat /etc/xray/ipvps)
+MYIP=$(cat /etc/xray/ipvps)
+domain=$(cat /etc/xray/domain)
+
+clear
+user=Trial-VM`</dev/urandom tr -dc 0-9 | head -c3`
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "\033[1;97m▎\033[0m \033[1;97mCREATE TRIAL V2RAY VMESS\033[0m"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+read -p "Set Menit : " pup
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+
+uuid=$(cat /proc/sys/kernel/random/uuid)
+masaaktif=1
+Quota=1000
+iplimit=1000
+
+exp=$(date -d "$masaaktif days" +"%Y-%m-%d")
+tgl=$(date -d "$masaaktif days" +"%d")
+bln=$(date -d "$masaaktif days" +"%b")
+thn=$(date -d "$masaaktif days" +"%Y")
+expe="$tgl $bln, $thn"
+tgl2=$(date +"%d")
+bln2=$(date +"%b")
+thn2=$(date +"%Y")
+tnggl="$tgl2 $bln2, $thn2"
+sed -i '/#vmess$/a\### '"$user $exp"'\
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vmesstcp-tls$/a\### '"$user $exp"'\
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vmesstcp-none$/a\### '"$user $exp"'\
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vmesskcp-tls$/a\### '"$user $exp"'\
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vmesskcp-none$/a\### '"$user $exp"'\
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vmessws-tls$/a\### '"$user $exp"'\
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vmessws-none$/a\### '"$user $exp"'\
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vmesshttp-tls$/a\### '"$user $exp"'\
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vmesshttp-none$/a\### '"$user $exp"'\
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vmessgrpc-tls$/a\### '"$user $exp"'\
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vmessgrpc-none$/a\### '"$user $exp"'\
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vmesshttpupgrade-tls$/a\### '"$user $exp"'\
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vmesshttpupgrade-none$/a\### '"$user $exp"'\
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vmessxhttp-tls$/a\### '"$user $exp"'\
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vmessxhttp-none$/a\### '"$user $exp"'\
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vmessquic-tls$/a\### '"$user $exp"'\
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vmessquic-none$/a\### '"$user $exp"'\
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vmessdomainsocket-none$/a\### '"$user $exp"'\
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/xray/config.json
+exp=$(date -d "$masaaktif days" +"%Y-%m-%d")
+sed -i '/#vmessgrpc$/a\### '"$user $exp"'\
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vmessxhttp$/a\### '"$user $exp"'\
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/xray/config.json
+asu=`cat<<EOF
+      {
+      "v": "2",
+      "ps": "${user}",
+      "add": "${domain}",
+      "port": "443",
+      "id": "${uuid}",
+      "aid": "0",
+      "net": "ws",
+      "path": "/vmess",
+      "type": "none",
+      "host": "${domain}",
+      "tls": "tls"
+}
+EOF`
+ask=`cat<<EOF
+      {
+      "v": "2",
+      "ps": "${user}",
+      "add": "${domain}",
+      "port": "80",
+      "id": "${uuid}",
+      "aid": "0",
+      "net": "ws",
+      "path": "/vmess",
+      "type": "none",
+      "host": "${domain}",
+      "tls": "none"
+}
+EOF`
+grpc=`cat<<EOF
+      {
+      "v": "2",
+      "ps": "${user}",
+      "add": "${domain}",
+      "port": "443",
+      "id": "${uuid}",
+      "aid": "0",
+      "net": "grpc",
+      "path": "vmess-grpc",
+      "type": "none",
+      "host": "${domain}",
+      "tls": "tls"
+}
+EOF`
+vmess_base641=$( base64 -w 0 <<< $vmess_json1)
+vmess_base642=$( base64 -w 0 <<< $vmess_json2)
+vmess_base643=$( base64 -w 0 <<< $vmess_json3)
+vmesslink1="vmess://$(echo $asu | base64 -w 0)"
+vmesslink2="vmess://$(echo $ask | base64 -w 0)"
+vmesslink3="vmess://$(echo $grpc | base64 -w 0)"
+tcptls=`cat<<EOF
+{
+      "v": "2",
+      "ps": "${user}",
+      "add": "${domain}",
+      "port": "10030",
+      "id": "${uuid}",
+      "aid": "0",
+      "net": "tcp",
+      "path": "/vmess",
+      "type": "none",
+      "host": "${domain}",
+      "tls": "tls"
+}
+EOF`
+vmess_tcptls="vmess://$(echo $tcptls | base64 -w 0)"
+tcpnone=`cat<<EOF
+{
+      "v": "2",
+      "ps": "${user}",
+      "add": "${domain}",
+      "port": "10031",
+      "id": "${uuid}",
+      "aid": "0",
+      "net": "tcp",
+      "path": "/vmess",
+      "type": "none",
+      "host": "${domain}",
+      "tls": "none"
+}
+EOF`
+vmess_tcpnone="vmess://$(echo $tcpnone | base64 -w 0)"
+kcptls=`cat<<EOF
+{
+      "v": "2",
+      "ps": "${user}",
+      "add": "${domain}",
+      "port": "10032",
+      "id": "${uuid}",
+      "aid": "0",
+      "net": "kcp",
+      "path": "/vmess",
+      "type": "none",
+      "host": "${domain}",
+      "tls": "tls"
+}
+EOF`
+vmess_kcptls="vmess://$(echo $kcptls | base64 -w 0)"
+kcpnone=`cat<<EOF
+{
+      "v": "2",
+      "ps": "${user}",
+      "add": "${domain}",
+      "port": "10033",
+      "id": "${uuid}",
+      "aid": "0",
+      "net": "kcp",
+      "path": "/vmess",
+      "type": "none",
+      "host": "${domain}",
+      "tls": "none"
+}
+EOF`
+vmess_kcpnone="vmess://$(echo $kcpnone | base64 -w 0)"
+httptls=`cat<<EOF
+{
+      "v": "2",
+      "ps": "${user}",
+      "add": "${domain}",
+      "port": "10036",
+      "id": "${uuid}",
+      "aid": "0",
+      "net": "tcp",
+      "path": "/httptunnel",
+      "type": "http",
+      "host": "${domain}",
+      "tls": "tls"
+}
+EOF`
+vmess_httptls="vmess://$(echo $httptls | base64 -w 0)"
+httpnone=`cat<<EOF
+{
+      "v": "2",
+      "ps": "${user}",
+      "add": "${domain}",
+      "port": "10037",
+      "id": "${uuid}",
+      "aid": "0",
+      "net": "tcp",
+      "path": "/httptunnel",
+      "type": "http",
+      "host": "${domain}",
+      "tls": "none"
+}
+EOF`
+vmess_httpnone="vmess://$(echo $httpnone | base64 -w 0)"
+grpctls=`cat<<EOF
+{
+      "v": "2",
+      "ps": "${user}",
+      "add": "${domain}",
+      "port": "10038",
+      "id": "${uuid}",
+      "aid": "0",
+      "net": "grpc",
+      "path": "TunGrpc",
+      "type": "none",
+      "host": "${domain}",
+      "tls": "tls"
+}
+EOF`
+vmess_grpctls="vmess://$(echo $grpctls | base64 -w 0)"
+grpcnone=`cat<<EOF
+{
+      "v": "2",
+      "ps": "${user}",
+      "add": "${domain}",
+      "port": "10039",
+      "id": "${uuid}",
+      "aid": "0",
+      "net": "grpc",
+      "path": "TunGrpc",
+      "type": "none",
+      "host": "${domain}",
+      "tls": "none"
+}
+EOF`
+vmess_grpcnone="vmess://$(echo $grpcnone | base64 -w 0)"
+huptls=`cat<<EOF
+{
+      "v": "2",
+      "ps": "${user}",
+      "add": "${domain}",
+      "port": "10040",
+      "id": "${uuid}",
+      "aid": "0",
+      "net": "httpupgrade",
+      "path": "/n-hup-vmess",
+      "type": "none",
+      "host": "${domain}",
+      "tls": "tls"
+}
+EOF`
+vmess_huptls="vmess://$(echo $huptls | base64 -w 0)"
+hupnone=`cat<<EOF
+{
+      "v": "2",
+      "ps": "${user}",
+      "add": "${domain}",
+      "port": "10041",
+      "id": "${uuid}",
+      "aid": "0",
+      "net": "httpupgrade",
+      "path": "/httpupgrade",
+      "type": "none",
+      "host": "${domain}",
+      "tls": "none"
+}
+EOF`
+vmess_hupnone="vmess://$(echo $hupnone | base64 -w 0)"
+xhttls=`cat<<EOF
+{
+      "v": "2",
+      "ps": "${user}",
+      "add": "${domain}",
+      "port": "10042",
+      "id": "${uuid}",
+      "aid": "0",
+      "net": "xhttp",
+      "path": "/n-xh-vmess",
+      "type": "none",
+      "host": "${domain}",
+      "tls": "tls"
+}
+EOF`
+vmess_xhttls="vmess://$(echo $xhttls | base64 -w 0)"
+xhtnone=`cat<<EOF
+{
+      "v": "2",
+      "ps": "${user}",
+      "add": "${domain}",
+      "port": "10043",
+      "id": "${uuid}",
+      "aid": "0",
+      "net": "xhttp",
+      "path": "/xhttp",
+      "type": "none",
+      "host": "${domain}",
+      "tls": "none"
+}
+EOF`
+vmess_xhtnone="vmess://$(echo $xhtnone | base64 -w 0)"
+xhttp=`cat<<EOF
+      {
+      "v": "2",
+      "ps": "${user}",
+      "add": "${domain}",
+      "port": "443",
+      "id": "${uuid}",
+      "aid": "0",
+      "net": "xhttp",
+      "path": "/vmess-xhttp",
+      "type": "none",
+      "host": "${domain}",
+      "tls": "tls"
+}
+EOF`
+xhttplink="vmess://$(echo $xhttp | base64 -w 0)"
+
+if [ ! -e /etc/vmess ]; then
+  mkdir -p /etc/vmess
+fi
+
+if [[ $iplimit -gt 0 ]]; then
+mkdir -p /etc/kyt/limit/vmess/ip
+echo -e "$iplimit" > /etc/kyt/limit/vmess/ip/$user
+else
+echo > /dev/null
+fi
+
+if [ -z ${Quota} ]; then
+  Quota="0"
+fi
+
+c=$(echo "${Quota}" | sed 's/[^0-9]*//g')
+d=$((${c} * 1024 * 1024 * 1024))
+
+if [[ ${c} != "0" ]]; then
+  echo "${d}" >/etc/vmess/${user}
+fi
+
+DATADB=$(cat /etc/vmess/.vmess.db | grep "^#&#" | grep -w "${user}" | awk '{print $2}')
+if [[ "${DATADB}" != '' ]]; then
+  sed -i "/\b${user}\b/d" /etc/vmess/.vmess.db
+fi
+echo "#&# ${user} ${exp} ${uuid}" >>/etc/vmess/.vmess.db
+
+cat > /var/www/html/vmess-$user.txt  <<-END
+----------------------
+Status Trial VMESS Success
+----------------------
+ISP   : $ISP
+City  : $CITY
+----------------------
+Host  : $domain
+User  : $user
+UUID  : $uuid
+Max   : $iplimit IP
+Quota : $Quota GB
+Port  : 443, 80
+Path  : /vmess
+----------------------
+Tls   : $vmesslink1
+----------------------
+nTls  : $vmesslink2
+----------------------
+Grpc  : $vmesslink3
+───────────────────────────
+XHTTP : $xhttplink
+----------------------
+TCPTLS : $vmess_tcptls
+----------------------
+TCPNONE : $vmess_tcpnone
+----------------------
+KCPTLS : $vmess_kcptls
+----------------------
+KCPNONE : $vmess_kcpnone
+----------------------
+HTTPTLS : $vmess_httptls
+----------------------
+HTTPNONE : $vmess_httpnone
+----------------------
+GRPCTLS : $vmess_grpctls
+----------------------
+GRPCNONE : $vmess_grpcnone
+----------------------
+HUPTLS : $vmess_huptls
+----------------------
+HUPNONE : $vmess_hupnone
+----------------------
+XHTTLS : $vmess_xhttls
+----------------------
+XHTNONE : $vmess_xhtnone
+----------------------
+Exp   : $pup Menit
+----------------------
+END
+
+clear
+
+TEXT="
+──────────────────────
+Status Trial VMESS Success
+──────────────────────
+<code>✧ ISP   :</code> <code>$ISP</code>
+<code>✧ City  :</code> <code>$CITY</code>
+──────────────────────
+<code>✧ Host  :</code> <code>$domain</code>
+<code>✧ IP    :</code> <code>$MYIP</code>
+<code>✧ User  :</code> <code>$user</code>
+<code>✧ UUID  :</code> <code>$uuid</code>
+<code>✧ Max   :</code> <code>$iplimit IP</code>
+<code>✧ Quota :</code> <code>$Quota GB</code>
+<code>✧ Port  :</code> <code>443, 80</code>
+<code>✧ Path  :</code> <code>/vmess</code>
+──────────────────────
+<code>✧ Tls   :</code> <code>$vmesslink1</code>
+──────────────────────
+<code>✧ nTls  :</code> <code>$vmesslink2</code>
+──────────────────────
+<code>✧ Grpc  :</code> <code>$vmesslink3</code>
+──────────────────────
+<code>✧ Doc   :</code> https://${domain}:81/vmess-$user.txt
+──────────────────────
+<code>✧ Exp   :</code> <code>$pup Menit</code>
+────────────────────── "
+
+curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
+
+echo "tunnel vmess ${user}" | at now + $pup minutes &> /dev/null
+systemctl restart xray# ==== NEXUS: register trial expiry untuk auto-delete ====
+EXPEPOCH=$(date -d "+${pup} minutes" +%s)
+echo "vmess ${user} ${EXPEPOCH}" >> /etc/xray/trial-expiry
+ > /dev/null 2>&1
+
+clear
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "\033[1;97m▎\033[0m \033[1;97mStatus Trial VMESS Success\033[0m"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ ISP   : $ISP${NC}"
+echo -e "${NC}✧ City  : $CITY${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ Host  : $domain${NC}"
+echo -e "${NC}✧ IP    : $MYIP${NC}"
+echo -e "${NC}✧ User  : $user${NC}"
+echo -e "${NC}✧ UUID  : $uuid${NC}"
+echo -e "${NC}✧ Max   : $iplimit IP${NC}"
+echo -e "${NC}✧ Quota : $Quota GB${NC}"
+echo -e "${NC}✧ Port  : 443, 80${NC}"
+echo -e "${NC}✧ Path  : /vmess${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ TLS   : $vmesslink1${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ nTLS  : $vmesslink2${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ Grpc  : $vmesslink3
+───────────────────────────
+XHTTP : $xhttplink${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ TCPTLS : $vmess_tcptls${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ TCPNONE : $vmess_tcpnone${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ KCPTLS : $vmess_kcptls${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ KCPNONE : $vmess_kcpnone${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ HTTPTLS : $vmess_httptls${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ HTTPNONE : $vmess_httpnone${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ GRPCTLS : $vmess_grpctls${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ GRPCNONE : $vmess_grpcnone${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ HUPTLS : $vmess_huptls${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ HUPNONE : $vmess_hupnone${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ XHTTLS : $vmess_xhttls${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ XHTNONE : $vmess_xhtnone${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ Doc   : https://${domain}:81/vmess-$user.txt${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ Exp   : $pup Menit${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e ""
+read -n 1 -s -r -p "Press any key to back"
+m-vmess

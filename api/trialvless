@@ -1,0 +1,288 @@
+# !/bin/bash
+# ████████╗░█████╗░██╗░░██╗░█████╗░██╗░░░██╗██████╗░███╗░░██╗
+# ╚══██╔══╝██╔══██╗██║░██╔╝██╔══██╗██║░░░██║██╔══██╗████╗░██║
+# ░░░██║░░░██║░░██║█████═╝░██║░░██║╚██╗░██╔╝██████╔╝██╔██╗██║
+# ░░░██║░░░██║░░██║██╔═██╗░██║░░██║░╚████╔╝░██╔═══╝░██║╚████║
+# ░░░██║░░░╚█████╔╝██║░╚██╗╚█████╔╝░░╚██╔╝░░██║░░░░░██║░╚███║
+# ░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝░╚════╝░░░░╚═╝░░░╚═╝░░░░░╚═╝░░╚══╝
+
+BICyan='\033[1;97m'       # Cyan
+BIWhite='\033[1;97m'      # White
+UWhite='\033[4;37m'       # White
+BIYellow='\033[1;37m'     # Yellow
+BGWHITE='\E[40;1;37m'     # Bgwhite
+
+RED="\033[90m"
+NC='\e[0m'
+GREEN='\033[0;97m'
+ORANGE='\033[0;90m'
+YELL='\033[0;90m'
+
+CHATID=$(grep -E "^#bot# " "/etc/bot/.bot.db" | cut -d ' ' -f 3)
+KEY=$(grep -E "^#bot# " "/etc/bot/.bot.db" | cut -d ' ' -f 2)
+TIME="10"
+URL="https://api.telegram.org/bot$KEY/sendMessage"
+ISP=$(cat /etc/xray/isp)
+CITY=$(cat /etc/xray/city)
+IP=$(cat /etc/xray/ipvps)
+MYIP=$(cat /etc/xray/ipvps)
+domain=$(cat /etc/xray/domain)
+
+clear
+user=Trial-VM`</dev/urandom tr -dc 0-9 | head -c3`
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "\033[1;97m▎\033[0m \033[1;97mCREATE TRIAL V2RAY VLESS\033[0m"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+read -p "Set Menit : " pup
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+
+uuid=$(cat /proc/sys/kernel/random/uuid)
+masaaktif=1
+Quota=1000
+iplimit=1000
+
+exp=$(date -d "$masaaktif days" +"%Y-%m-%d")
+tgl=$(date -d "$masaaktif days" +"%d")
+bln=$(date -d "$masaaktif days" +"%b")
+thn=$(date -d "$masaaktif days" +"%Y")
+expe="$tgl $bln, $thn"
+tgl2=$(date +"%d")
+bln2=$(date +"%b")
+thn2=$(date +"%Y")
+tnggl="$tgl2 $bln2, $thn2"
+sed -i '/#vless$/a\#& '"$user $exp"'\
+},{"id": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vlesstcp-tls$/a\#& '"$user $exp"'\
+},{"id": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vlesstcp-reality$/a\#& '"$user $exp"'\
+},{"id": "'""$uuid""'","email": "'""$user""'","flow": "xtls-rprx-vision"' /etc/xray/config.json
+sed -i '/#vlesstcp-none$/a\#& '"$user $exp"'\
+},{"id": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vlesskcp-tls$/a\#& '"$user $exp"'\
+},{"id": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vlesskcp-none$/a\#& '"$user $exp"'\
+},{"id": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vlessws-tls$/a\#& '"$user $exp"'\
+},{"id": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vlessws-none$/a\#& '"$user $exp"'\
+},{"id": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vlesshttp-tls$/a\#& '"$user $exp"'\
+},{"id": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vlesshttp-none$/a\#& '"$user $exp"'\
+},{"id": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vlessgrpc-tls$/a\#& '"$user $exp"'\
+},{"id": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vlessgrpc-reality$/a\#& '"$user $exp"'\
+},{"id": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vlessgrpc-none$/a\#& '"$user $exp"'\
+},{"id": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vlesshttpupgrade-tls$/a\#& '"$user $exp"'\
+},{"id": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vlesshttpupgrade-none$/a\#& '"$user $exp"'\
+},{"id": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vlessxhttp-tls$/a\#& '"$user $exp"'\
+},{"id": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vlessxhttp-reality$/a\#& '"$user $exp"'\
+},{"id": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vlessxhttp-none$/a\#& '"$user $exp"'\
+},{"id": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vlessquic-tls$/a\#& '"$user $exp"'\
+},{"id": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vlessquic-none$/a\#& '"$user $exp"'\
+},{"id": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vlessdomainsocket-none$/a\#& '"$user $exp"'\
+},{"id": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vlessgrpc$/a\#& '"$user $exp"'\
+},{"id": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#vlessxhttp$/a\#& '"$user $exp"'\
+},{"id": "'"$uuid"'","email" : "'"$user"'"' /etc/xray/config.json
+clear
+vlesslink1="vless://${uuid}@${domain}:443?path=/vless&security=tls&encryption=none&host=${domain}&type=ws&sni=${domain}#${user}"
+vlesslink2="vless://${uuid}@${domain}:80?path=/vless&encryption=none&type=ws&host=${domain}#${user}"
+vlesslink3="vless://${uuid}@${domain}:443?mode=gun&security=tls&encryption=none&authority=${domain}&type=grpc&serviceName=vless-grpc&sni=${domain}#${user}"
+xhttplink="vless://${uuid}@${domain}:443?path=/vless-xhttp&security=tls&encryption=none&host=${domain}&type=xhttp&sni=${domain}#${user}"
+vless_tcpre="vless://${uuid}@${domain}:10048?security=reality&encryption=none&type=tcp&flow=xtls-rprx-vision&sni=www.datadoghq.com&fp=chrome&pbk=rLs9NWozRqHjjO7DKT4tdXiRJxUlcay84Zct-z6ga0A&sid=#${user}"
+vless_tcptls="vless://${uuid}@${domain}:10047?security=tls&encryption=none&type=tcp&sni=${domain}#${user}"
+vless_tcpnone="vless://${uuid}@${domain}:10049?encryption=none&type=tcp#${user}"
+vless_kcptls="vless://${uuid}@${domain}:10050?security=tls&encryption=none&type=kcp&sni=${domain}#${user}"
+vless_kcpnone="vless://${uuid}@${domain}:10051?encryption=none&type=kcp#${user}"
+vless_httptls="vless://${uuid}@${domain}:10054?security=tls&encryption=none&type=tcp&headerType=http&path=/httptunnel&host=${domain}&sni=${domain}#${user}"
+vless_httpnone="vless://${uuid}@${domain}:10055?encryption=none&type=tcp&headerType=http&path=/httptunnel&host=${domain}#${user}"
+vless_huptls="vless://${uuid}@${domain}:10059?security=tls&encryption=none&type=httpupgrade&path=/n-hup-vless&host=${domain}&sni=${domain}#${user}"
+vless_hupnone="vless://${uuid}@${domain}:10060?encryption=none&type=httpupgrade&path=/httpupgrade&host=${domain}#${user}"
+vless_xhttls="vless://${uuid}@${domain}:10061?security=tls&encryption=none&type=xhttp&path=/n-xh-vless&host=${domain}&sni=${domain}#${user}"
+vless_xhtnone="vless://${uuid}@${domain}:10063?encryption=none&type=xhttp&path=/xhttp&host=${domain}#${user}"
+vless_grpctls="vless://${uuid}@${domain}:10056?mode=gun&security=tls&encryption=none&authority=${domain}&type=grpc&serviceName=TunGrpc&sni=${domain}#${user}"
+vless_grpcnone="vless://${uuid}@${domain}:10058?mode=gun&encryption=none&authority=${domain}&type=grpc&serviceName=TunGrpc#${user}"
+
+if [ ! -e /etc/vless ]; then
+  mkdir -p /etc/vless
+fi
+
+if [[ $iplimit -gt 0 ]]; then
+mkdir -p /etc/kyt/limit/vless/ip
+echo -e "$iplimit" > /etc/kyt/limit/vless/ip/$user
+else
+echo > /dev/null
+fi
+
+if [ -z ${Quota} ]; then
+  Quota="0"
+fi
+
+c=$(echo "${Quota}" | sed 's/[^0-9]*//g')
+d=$((${c} * 1024 * 1024 * 1024))
+
+if [[ ${c} != "0" ]]; then
+  echo "${d}" >/etc/vless/${user}
+fi
+
+DATADB=$(cat /etc/vless/.vless.db | grep "^#&#" | grep -w "${user}" | awk '{print $2}')
+if [[ "${DATADB}" != '' ]]; then
+  sed -i "/\b${user}\b/d" /etc/vless/.vless.db
+fi
+echo "#&# ${user} ${exp} ${uuid}" >> /etc/vless/.vless.db
+
+cat >/var/www/html/vless-$user.txt <<-END
+----------------------
+Status Trial VLESS Success
+----------------------
+ISP   : $ISP
+City  : $CITY
+----------------------
+Host  : $domain
+User  : $user
+UUID  : $uuid
+Max   : $iplimit IP
+Quota : $Quota GB
+Port  : 443, 80
+Path  : /vless
+----------------------
+Tls   : $vlesslink1
+----------------------
+nTls  : $vlesslink2
+----------------------
+Grpc  : $vlesslink3
+───────────────────────────
+✧ XHTTP : $xhttplink
+----------------------
+TCPRE : $vless_tcpre
+----------------------
+TCPTLS : $vless_tcptls
+----------------------
+TCPNONE : $vless_tcpnone
+----------------------
+KCPTLS : $vless_kcptls
+----------------------
+KCPNONE : $vless_kcpnone
+----------------------
+HTTPTLS : $vless_httptls
+----------------------
+HTTPNONE : $vless_httpnone
+----------------------
+HUPTLS : $vless_huptls
+----------------------
+HUPNONE : $vless_hupnone
+----------------------
+XHTTLS : $vless_xhttls
+----------------------
+XHTNONE : $vless_xhtnone
+----------------------
+GRPCTLS : $vless_grpctls
+----------------------
+GRPCNONE : $vless_grpcnone
+----------------------
+Exp   : $pup Menit
+----------------------
+END
+
+clear
+
+TEXT="
+──────────────────────
+Status Trial VLESS Success
+──────────────────────
+<code>✧ ISP   :</code> <code>$ISP</code>
+<code>✧ City  :</code> <code>$CITY</code>
+──────────────────────
+<code>✧ Host  :</code> <code>$domain</code>
+<code>✧ IP    :</code> <code>$MYIP</code>
+<code>✧ User  :</code> <code>$user</code>
+<code>✧ UUID  :</code> <code>$uuid</code>
+<code>✧ Max   :</code> <code>Unlimited</code>
+<code>✧ Quota :</code> <code>Unlimited</code>
+<code>✧ Port  :</code> <code>443, 80</code>
+<code>✧ Path  :</code> <code>/vless</code>
+──────────────────────
+<code>TLS, nTLS, GRPC Check Link ↴</code>
+──────────────────────
+<code>✧ Doc   :</code> https://${domain}:81/vless-$user.txt
+──────────────────────
+<code>✧ Exp   :</code> <code>$pup Menit</code>
+──────────────────────  "
+
+curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
+
+echo "tunnel vless ${user}" | at now + $pup minutes &> /dev/null
+systemctl restart xray# ==== NEXUS: register trial expiry untuk auto-delete ====
+EXPEPOCH=$(date -d "+${pup} minutes" +%s)
+echo "vless ${user} ${EXPEPOCH}" >> /etc/xray/trial-expiry
+ > /dev/null 2>&1
+
+clear
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "\033[1;97m▎\033[0m \033[1;97mStatus Trial VLESS Success\033[0m"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ ISP   : $ISP${NC}"
+echo -e "${NC}✧ City  : $CITY${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ Host  : $domain${NC}"
+echo -e "${NC}✧ IP    : $MYIP${NC}"
+echo -e "${NC}✧ User  : $user${NC}"
+echo -e "${NC}✧ UUID  : $uuid${NC}"
+echo -e "${NC}✧ Max   : $iplimit IP${NC}"
+echo -e "${NC}✧ Quota : $Quota GB${NC}"
+echo -e "${NC}✧ Port  : 443, 80${NC}"
+echo -e "${NC}✧ Path  : /vless${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ TLS   : $vlesslink1${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ nTLS  : $vlesslink2${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ Grpc  : $vlesslink3
+───────────────────────────
+✧ XHTTP : $xhttplink${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ TCPRE : $vless_tcpre${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ TCPTLS : $vless_tcptls${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ TCPNONE : $vless_tcpnone${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ KCPTLS : $vless_kcptls${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ KCPNONE : $vless_kcpnone${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ HTTPTLS : $vless_httptls${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ HTTPNONE : $vless_httpnone${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ HUPTLS : $vless_huptls${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ HUPNONE : $vless_hupnone${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ XHTTLS : $vless_xhttls${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ XHTNONE : $vless_xhtnone${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ GRPCTLS : $vless_grpctls${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ GRPCNONE : $vless_grpcnone${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ Doc   : https://${domain}:81/vless-$user.txt${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ Exp   : $pup Menit${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e ""
+read -n 1 -s -r -p "Press any key to back"
+m-vless

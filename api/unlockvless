@@ -1,0 +1,147 @@
+# !/bin/bash
+# ████████╗░█████╗░██╗░░██╗░█████╗░██╗░░░██╗██████╗░███╗░░██╗
+# ╚══██╔══╝██╔══██╗██║░██╔╝██╔══██╗██║░░░██║██╔══██╗████╗░██║
+# ░░░██║░░░██║░░██║█████═╝░██║░░██║╚██╗░██╔╝██████╔╝██╔██╗██║
+# ░░░██║░░░██║░░██║██╔═██╗░██║░░██║░╚████╔╝░██╔═══╝░██║╚████║
+# ░░░██║░░░╚█████╔╝██║░╚██╗╚█████╔╝░░╚██╔╝░░██║░░░░░██║░╚███║
+# ░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝░╚════╝░░░░╚═╝░░░╚═╝░░░░░╚═╝░░╚══╝
+
+dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
+biji=$(date +"%Y-%m-%d" -d "$dateFromServer")
+RED='\033[0;90m'
+NC='\033[0m'
+GREEN='\033[0;97m'
+ORANGE='\033[0;90m'
+BLUE='\033[0;90m'
+PURPLE='\033[0;90m'
+CYAN='\033[0;90m'
+LIGHT='\033[0;37m'
+red='\e[1;90m'
+green='\e[0;97m'
+NC='\e[0m'
+BGWHITE='\e[0;40;37m'
+green() { echo -e "\\033[97;1m${*}\\033[0m"; }
+red() { echo -e "\\033[90;1m${*}\\033[0m"; }
+
+clear
+NUMBER_OF_CLIENTS=$(grep -c -E "^#& " "/etc/xray/config.json")
+
+if [[ ${NUMBER_OF_CLIENTS} == '0' ]]; then
+    echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+    echo -e "\033[1;97m▎\033[0m \033[1;97mLIST MEMBER V2RAY VLESS\033[0m"
+    echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+    echo -e ""
+    echo -e "You Don't Have a Vless Account!"
+    echo -e ""
+    echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+    read -n 1 -s -r -p "Press any key to back"
+    m-vless
+fi
+
+clear
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "\033[1;97m▎\033[0m \033[1;97mLIST MEMBER V2RAY VLESS\033[0m"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "\033[1;97m▎\033[0m \033[1;97mNO    USERNAME         EXP DATE     STATUS\033[0m"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+
+# Mengambil dan mengurutkan berdasarkan username (alphabetically)
+declare -A user_map
+declare -A user_status
+declare -a accounts
+
+current_date=$(date +%Y-%m-%d)  # Mendapatkan tanggal saat ini
+
+counter=1  # Menambahkan counter untuk nomor urut
+
+while read -r line; do
+    user=$(echo "$line" | cut -d ' ' -f 2)
+    exp=$(echo "$line" | cut -d ' ' -f 3)
+    
+    # Cek status dengan mencari kunci "LOCKED" dalam konfigurasi
+    status=$(grep -w "^#& $user" -A 1 "/etc/xray/config.json" | sort | uniq | grep -o "LOCKED" || echo "UNLOCKED")
+    
+    user_map["$user"]="$exp"
+    user_status["$user"]="$status"
+done < <(grep -E "^#& " "/etc/xray/config.json" | sort | uniq)
+
+# Menampilkan username, expiration date, dan status secara terurut
+for user in $(echo "${!user_map[@]}" | tr ' ' '\n' | sort); do
+    exp="${user_map[$user]}"
+    status="${user_status[$user]}"
+    
+    # Menghitung selisih hari antara tanggal sekarang dan tanggal exp
+    exp_timestamp=$(date -d "$exp" +%s)  # Tanggal exp dalam format timestamp
+    current_timestamp=$(date -d "$current_date" +%s)  # Tanggal sekarang dalam format timestamp
+    diff_days=$(( (exp_timestamp - current_timestamp) / 86400 ))  # Menghitung selisih dalam hari
+    
+    if [[ $diff_days -le 1 ]]; then
+        # Jika exp kurang dari atau sama dengan 1 hari, warnai merah
+        printf "${RED}%-5s %-15s %-10s %-10s${NC}\n" "$counter" "$user" "$exp" " $status"
+    else
+        # Tampilkan dengan warna normal
+        printf "%-5s %-15s %-10s %-10s\n" "$counter" "$user" "$exp" " $status"
+    fi
+     accounts+=("$user")
+    ((counter++))  # Menambahkan counter untuk nomor selanjutnya
+done
+
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "\033[1;97m▎\033[0m \033[1;97mMASUKKAN NOMOR ACCOUNT VLESS\033[0m"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+read -p "Input Number of Account: " number
+
+# Validasi input
+if [[ -z "$number" ]]; then
+    echo -e "${red}No input detected!${NC}"
+    exit 1
+fi
+
+selected_account="${accounts[$((number - 1))]}"
+
+if [[ -z "$selected_account" ]]; then
+    echo -e "${red}Account number not found!${NC}"
+    exit 1
+fi
+
+exp=$(grep -wE "^#& $selected_account" "/etc/xray/config.json" | cut -d ' ' -f 3 | sort | uniq)
+uuid=$(grep -w "^#& $selected_account $exp" -A 1 "/etc/xray/config.json" | awk -F'"' '/"id":/ {print $4}' | sort | uniq)
+uuid1=$(grep -w "^#& $selected_account $exp" -A 1 "/etc/xray/config.json" | awk -F'"' '/"id":/ {print $4}' | sed 's/LOCKED//g' | sort | uniq)
+uuid2=$(grep -w "^#& $selected_account $exp" -A 1 "/etc/xray/config.json" | awk -F'"' '/"id":/ {print $4}' | sed 's/.*\(LOCKED\)/\1/' | sort | uniq)
+uuid3=$(grep -w "^### $selected_account" /etc/vless/.vless.db | awk '{print $4}')
+
+if [[ "$uuid2" == "LOCKED" ]]; then
+    echo > /dev/null   
+else
+    echo -e "${red}Account has been unlocked!${NC}"
+    exit 1
+fi
+
+DATADB=$(cat /etc/vless/.vless.db | grep "^###" | grep -w "${selected_account}" | awk '{print $2}')
+if [[ "${DATADB}" != '' ]]; then
+sed -i "/^### $selected_account/d" /etc/vless/.vless.db
+fi
+echo "### ${selected_account} ${exp} ${uuid3}" >> /etc/vless/.vless.db
+sed -i "/^#& $selected_account $exp/,/^},{/d" /etc/xray/config.json
+# ==== NEXUS-ALLMARKER: restore ke SEMUA marker vless ====
+rm -f /etc/limit/vless/.lock-$selected_account
+# uuid3 = key asli dari db (sudah di-set di atas script)
+while IFS= read -r MK; do
+  [ -z "$MK" ] && continue
+  sed -i "/^${MK}\$/a\\#& $selected_account $exp\n}},{\"id\": \"$uuid3\",\"email\" : \"$selected_account\"" /etc/xray/config.json
+done <<< "$(grep -oE '#vless[a-z-]*' /etc/xray/config.json | sort -u)"
+systemctl restart xray > /dev/null 2>&1
+
+clear
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "\033[1;97m▎\033[0m \033[1;97mUNLOCK VLESS ACCOUNT SUCCESS\033[0m"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e ""
+echo -e "${NC}Username Info   : $selected_account"
+echo -e "${NC}Expired Account : $exp"
+echo -e "${NC}Process Unlock  : Success"
+echo -e ""
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e ""
+read -n 1 -s -r -p "Press Any Key To Back"
+m-vless
