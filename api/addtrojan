@@ -1,0 +1,283 @@
+# !/bin/bash
+# ████████╗░█████╗░██╗░░██╗░█████╗░██╗░░░██╗██████╗░███╗░░██╗
+# ╚══██╔══╝██╔══██╗██║░██╔╝██╔══██╗██║░░░██║██╔══██╗████╗░██║
+# ░░░██║░░░██║░░██║█████═╝░██║░░██║╚██╗░██╔╝██████╔╝██╔██╗██║
+# ░░░██║░░░██║░░██║██╔═██╗░██║░░██║░╚████╔╝░██╔═══╝░██║╚████║
+# ░░░██║░░░╚█████╔╝██║░╚██╗╚█████╔╝░░╚██╔╝░░██║░░░░░██║░╚███║
+# ░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝░╚════╝░░░░╚═╝░░░╚═╝░░░░░╚═╝░░╚══╝
+
+BICyan='\033[1;97m'       # Cyan
+BIWhite='\033[1;97m'      # White
+UWhite='\033[4;37m'       # White
+BIYellow='\033[1;37m'     # Yellow
+BGWHITE='\E[40;1;37m'     # Bgwhite
+
+RED="\033[90m"
+NC='\e[0m'
+GREEN='\033[0;97m'
+ORANGE='\033[0;90m'
+YELL='\033[0;90m'
+
+CHATID=$(grep -E "^#bot# " "/etc/bot/.bot.db" | cut -d ' ' -f 3)
+KEY=$(grep -E "^#bot# " "/etc/bot/.bot.db" | cut -d ' ' -f 2)
+TIME="10"
+URL="https://api.telegram.org/bot$KEY/sendMessage"
+ISP=$(cat /etc/xray/isp)
+CITY=$(cat /etc/xray/city)
+IP=$(cat /etc/xray/ipvps)
+MYIP=$(cat /etc/xray/ipvps)
+domain=$(cat /etc/xray/domain)
+
+clear
+until [[ $user =~ ^[a-zA-Z0-9_]+$ && ${CLIENT_EXISTS} == '0' ]]; do
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "\033[1;97m▎\033[0m \033[1;97mCREATE V2RAY TROJN ACCOUNT\033[0m"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+read -p "Username  : " user
+CLIENT_EXISTS=$(grep -w $user /etc/xray/config.json | wc -l)
+if [[ ${CLIENT_EXISTS} == '1' ]]; then
+clear
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "\033[1;97m▎\033[0m \033[1;97mCREATE V2RAY TROJN ACCOUNT\033[0m"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e ""
+echo -e "Username has been used."
+echo -e ""
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e ""
+m-trojan
+fi
+done
+
+read -p "Limit Ip  : " iplimit
+read -p "Max Quota : " Quota
+read -p "Expireed  : " masaaktif
+
+uuid=$(cat /proc/sys/kernel/random/uuid)
+
+tgl=$(date -d "$masaaktif days" +"%d")
+bln=$(date -d "$masaaktif days" +"%b")
+bln1=$(date -d "$masaaktif days" +"%m")
+thn=$(date -d "$masaaktif days" +"%Y")
+expe="$tgl $bln, $thn"
+exp_formatted="$thn-$bln1-$tgl"
+tgl2=$(date +"%d")
+bln2=$(date +"%b")
+thn2=$(date +"%Y")
+tnggl="$tgl2 $bln2, $thn2"
+exp=$(date -d "$masaaktif days" +"%Y-%m-%d")
+sed -i '/#trojanws$/a\#! '"$user $exp"'\
+},{"password": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#trojantcp-tls$/a\#! '"$user $exp"'\
+},{"password": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#trojantcp-none$/a\#! '"$user $exp"'\
+},{"password": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#trojankcp-tls$/a\#! '"$user $exp"'\
+},{"password": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#trojankcp-none$/a\#! '"$user $exp"'\
+},{"password": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#trojanws-tls$/a\#! '"$user $exp"'\
+},{"password": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#trojanws-none$/a\#! '"$user $exp"'\
+},{"password": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#trojanhttp-tls$/a\#! '"$user $exp"'\
+},{"password": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#trojanhttp-none$/a\#! '"$user $exp"'\
+},{"password": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#trojangrpc-tls$/a\#! '"$user $exp"'\
+},{"password": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#trojangrpc-none$/a\#! '"$user $exp"'\
+},{"password": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#trojanhttpupgrade-tls$/a\#! '"$user $exp"'\
+},{"password": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#trojanhttpupgrade-none$/a\#! '"$user $exp"'\
+},{"password": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#trojanxhttp-tls$/a\#! '"$user $exp"'\
+},{"password": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#trojanxhttp-none$/a\#! '"$user $exp"'\
+},{"password": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#trojanquic-tls$/a\#! '"$user $exp"'\
+},{"password": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#trojanquic-none$/a\#! '"$user $exp"'\
+},{"password": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#trojandomainsocket-none$/a\#! '"$user $exp"'\
+},{"password": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#trojangrpc$/a\#! '"$user $exp"'\
+},{"password": "'""$uuid""'","email": "'""$user""'"' /etc/xray/config.json
+sed -i '/#trojanxhttp$/a\#! '"$user $exp"'\
+},{"password": "'"$uuid"'","email": "'"$user"'"' /etc/xray/config.json
+trojanlink1="trojan://${uuid}@${domain}:443?path=/trojan-ws&security=tls&host=${domain}&type=ws&sni=${domain}#${user}"
+trojanlink2="trojan://${uuid}@${domain}:443?mode=gun&security=tls&authority=${domain}&type=grpc&serviceName=trojan-grpc&sni=${domain}#${user}"
+xhttplink="trojan://${uuid}@${domain}:443?path=/trojan-xhttp&security=tls&host=${domain}&type=xhttp&sni=${domain}#${user}"
+trojan_tcptls="trojan://${uuid}@${domain}:10067?security=tls&type=tcp&sni=${domain}#${user}"
+trojan_tcpnone="trojan://${uuid}@${domain}:10068?type=tcp#${user}"
+trojan_kcptls="trojan://${uuid}@${domain}:10069?security=tls&type=kcp&sni=${domain}#${user}"
+trojan_kcpnone="trojan://${uuid}@${domain}:10070?type=kcp#${user}"
+trojan_httptls="trojan://${uuid}@${domain}:10073?security=tls&type=tcp&headerType=http&path=/httptunnel&host=${domain}&sni=${domain}#${user}"
+trojan_httpnone="trojan://${uuid}@${domain}:10074?type=tcp&headerType=http&path=/httptunnel&host=${domain}#${user}"
+trojan_huptls="trojan://${uuid}@${domain}:10077?security=tls&type=httpupgrade&path=/n-hup-trojan&host=${domain}&sni=${domain}#${user}"
+trojan_hupnone="trojan://${uuid}@${domain}:10078?type=httpupgrade&path=/httpupgrade&host=${domain}#${user}"
+trojan_xhttls="trojan://${uuid}@${domain}:10079?security=tls&type=xhttp&path=/n-xh-trojan&host=${domain}&sni=${domain}#${user}"
+trojan_xhtnone="trojan://${uuid}@${domain}:10080?type=xhttp&path=/xhttp&host=${domain}#${user}"
+trojan_grpctls="trojan://${uuid}@${domain}:10075?mode=gun&security=tls&authority=${domain}&type=grpc&serviceName=TunGrpc&sni=${domain}#${user}"
+trojan_grpcnone="trojan://${uuid}@${domain}:10076?mode=gun&authority=${domain}&type=grpc&serviceName=TunGrpc#${user}"
+
+if [ ! -e /etc/trojan ]; then
+  mkdir -p /etc/trojan
+fi
+
+if [[ $iplimit -gt 0 ]]; then
+mkdir -p /etc/kyt/limit/trojan/ip
+echo -e "$iplimit" > /etc/kyt/limit/trojan/ip/$user
+else
+echo > /dev/null
+fi
+
+if [ -z ${Quota} ]; then
+  Quota="0"
+fi
+
+c=$(echo "${Quota}" | sed 's/[^0-9]*//g')
+d=$((${c} * 1024 * 1024 * 1024))
+
+if [[ ${c} != "0" ]]; then
+  echo "${d}" >/etc/trojan/${user}
+fi
+
+DATADB=$(cat /etc/trojan/.trojan.db | grep "^###" | grep -w "${user}" | awk '{print $2}')
+if [[ "${DATADB}" != '' ]]; then
+  sed -i "/\b${user}\b/d" /etc/trojan/.trojan.db
+fi
+echo "### ${user} ${exp} ${uuid}" >> /etc/trojan/.trojan.db
+
+cat >/var/www/html/trojan-$user.txt <<-END
+----------------------
+Status Create TROJAN Success
+----------------------
+ISP   : $ISP
+City  : $CITY
+----------------------
+Host  : $domain
+User  : $user
+UUID  : $uuid
+Max   : $iplimit IP
+Quota : $Quota GB
+Port  : 443, 80
+Path  : /trojan
+----------------------
+WS    : $trojanlink1
+----------------------
+Grpc  : $trojanlink2
+----------------------
+TCPTLS : $trojan_tcptls
+----------------------
+TCPNONE : $trojan_tcpnone
+----------------------
+KCPTLS : $trojan_kcptls
+----------------------
+KCPNONE : $trojan_kcpnone
+----------------------
+HTTPTLS : $trojan_httptls
+----------------------
+HTTPNONE : $trojan_httpnone
+----------------------
+HUPTLS : $trojan_huptls
+----------------------
+HUPNONE : $trojan_hupnone
+----------------------
+XHTTLS : $trojan_xhttls
+----------------------
+XHTNONE : $trojan_xhtnone
+----------------------
+GRPCTLS : $trojan_grpctls
+----------------------
+GRPCNONE : $trojan_grpcnone
+───────────────────────────
+XHTTP : $xhttplink
+----------------------
+Exp   : $exp_formatted
+----------------------
+END
+
+clear
+
+TEXT="
+──────────────────────
+Status Create TROJAN Success
+──────────────────────
+<code>✧ ISP   :</code> <code>$ISP</code>
+<code>✧ City  :</code> <code>$CITY</code>
+──────────────────────
+<code>✧ Host  :</code> <code>$domain</code>
+<code>✧ IP    :</code> <code>$MYIP</code>
+<code>✧ User  :</code> <code>$user</code>
+<code>✧ UUID  :</code> <code>$uuid</code>
+<code>✧ Max   :</code> <code>$iplimit IP</code>
+<code>✧ Quota :</code> <code>$Quota GB</code>
+<code>✧ Port :</code> <code>443 (TLS), 80 (nTLS), 10058-10071 (TCP/KCP/WS/HTTP/gRPC/H2UP/XHTTP × TLS/NONE)</code>
+<code>✧ Path :</code> <code>/trojan-ws (WS), /n-ws-trojan (WSS), /trojan-grpc (gRPC), /httpunnel (HTTP), /TunGrpc (GRPC), /n-hup-trojan + /httpupgrade (H2UP), /n-xh-trojan + /xhttp (XHTTP)</code>
+──────────────────────
+<code>WS, GRPC Check Link ↴</code>
+──────────────────────
+<code>✧ Doc   :</code> https://${domain}:81/trojan-$user.txt
+──────────────────────
+<code>✧ Exp   :</code> <code>$exp_formatted</code>
+────────────────────── "
+
+curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
+
+systemctl restart xray > /dev/null 2>&1
+clear
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "\033[1;97m▎\033[0m \033[1;97mStatus Create TROJAN Success\033[0m"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ ISP   : $ISP${NC}"
+echo -e "${NC}✧ City  : $CITY${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ Host  : $domain${NC}"
+echo -e "${NC}✧ IP    : $MYIP${NC}"
+echo -e "${NC}✧ User  : $user${NC}"
+echo -e "${NC}✧ UUID  : $uuid${NC}"
+echo -e "${NC}✧ Max   : $iplimit IP${NC}"
+echo -e "${NC}✧ Quota : $Quota GB${NC}"
+echo -e "${NC}✧ Port  : 443 (TLS) · 80 (nTLS) · 10058 TCP · 10059 TCP-NONE · 10060 KCP · 10061 KCP-NONE · 10062 WS · 10063 WS-NONE · 10064 HTTP · 10065 HTTP-NONE · 10066 gRPC · 10067 gRPC-NONE · 10068 H2UP · 10069 H2UP-NONE · 10070 XHTTP · 10071 XHTTP-NONE${NC}"
+echo -e "${NC}✧ Path  : /trojan-ws (WS) · /n-ws-trojan (WSS) · /trojan-grpc (gRPC) · /httpunnel (HTTP) · /TunGrpc (GRPC) · /n-hup-trojan + /httpupgrade (H2UP) · /n-xh-trojan + /xhttp (XHTTP)${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ WS    : $trojanlink1${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ Grpc  : $trojanlink2
+───────────────────────────
+XHTTP : $xhttplink${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ TCPTLS : $trojan_tcptls${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ TCPNONE : $trojan_tcpnone${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ KCPTLS : $trojan_kcptls${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ KCPNONE : $trojan_kcpnone${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ HTTPTLS : $trojan_httptls${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ HTTPNONE : $trojan_httpnone${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ HUPTLS : $trojan_huptls${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ HUPNONE : $trojan_hupnone${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ XHTTLS : $trojan_xhttls${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ XHTNONE : $trojan_xhtnone${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ GRPCTLS : $trojan_grpctls${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ GRPCNONE : $trojan_grpcnone${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ Doc   : https://${domain}:81/trojan-$user.txt${NC}"
+/usr/local/sbin/genhtml >/dev/null 2>&1 &
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e "${NC}✧ Exp   : $exp_formatted${NC}"
+echo -e "\033[0;90m────────────────────────────────────────────\033[0m"
+echo -e ""
+read -n 1 -s -r -p "Press any key to back"
+m-trojan
